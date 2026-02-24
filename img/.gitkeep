@@ -1,0 +1,5 @@
+mkdir img assets
+touch img/.gitkeep assets/.gitkeep
+git add .
+git commit -m "Add img and assets folders"
+git push
