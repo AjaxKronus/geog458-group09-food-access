@@ -1,0 +1,1194 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "kkzf-ntnu",
+      "name" : "Emergency Food and Meals Seattle and King County",
+      "assetType" : "dataset",
+      "attribution" : "Human Services Department",
+      "attributionLink" : "http://www.seattle.gov/humanservices/",
+      "averageRating" : 0,
+      "category" : "Community and Culture",
+      "createdAt" : 1589823094,
+      "description" : "A list of emergency food (meals, food banks, etc.) available in Seattle and King County.",
+      "diciBackend" : false,
+      "displayType" : "table",
+      "downloadCount" : 1735,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 41931427,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1770344885,
+      "publicationGroup" : 17133985,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1770401763,
+      "rowsUpdatedBy" : "ucg6-6ndy",
+      "tableId" : 20266647,
+      "totalTimesRated" : 0,
+      "viewCount" : 757,
+      "viewLastModified" : 1770401763,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1589932707,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 7342790,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1589932707,
+        "targetAudience" : "public",
+        "workflowId" : 3127,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1589932707,
+          "failureCount" : 0,
+          "startedAt" : 1589932707,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "ucg6-6ndy",
+          "displayName" : "Clemens, Katie"
+        }
+      }, {
+        "state" : "submittable",
+        "submissionObject" : "internal_audience_request",
+        "submissionOutcome" : "change_audience",
+        "targetAudience" : "internal",
+        "workflowId" : 4739,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 626255595,
+        "name" : "Food Resource Type",
+        "dataTypeName" : "text",
+        "description" : "Food Bank, Meal, Food Bank & Meal",
+        "fieldName" : "food_resource_type",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 102040709,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "Meal",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Meal",
+            "count" : "157"
+          }, {
+            "item" : "Food Bank",
+            "count" : "88"
+          }, {
+            "item" : "Food Bank & Meal",
+            "count" : "23"
+          } ],
+          "smallest" : "Food Bank",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255596,
+        "name" : "Agency",
+        "dataTypeName" : "text",
+        "description" : "Agency/organization providing the service",
+        "fieldName" : "agency",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 102040708,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "YWCA",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Catholic Community Services of  Western Washington",
+            "count" : "26"
+          }, {
+            "item" : "Sound Generations",
+            "count" : "16"
+          }, {
+            "item" : "Des Moines Area Food Bank",
+            "count" : "16"
+          }, {
+            "item" : "Hunger Intervention Program",
+            "count" : "15"
+          }, {
+            "item" : "Hopelink",
+            "count" : "13"
+          }, {
+            "item" : "Asian Counseling and Referral Service (ACRS)",
+            "count" : "12"
+          }, {
+            "item" : "Praisealujah",
+            "count" : "6"
+          }, {
+            "item" : "Operation Sack Lunch, Inc.",
+            "count" : "5"
+          }, {
+            "item" : "Community Resource Network",
+            "count" : "4"
+          }, {
+            "item" : "Vedic Cultural Center",
+            "count" : "4"
+          }, {
+            "item" : "Ukrainian Community Center",
+            "count" : "3"
+          }, {
+            "item" : "Rainier Valley Food Bank",
+            "count" : "3"
+          }, {
+            "item" : "Salvation Army",
+            "count" : "3"
+          }, {
+            "item" : "Urban Fresh Food Collective of South Park",
+            "count" : "3"
+          }, {
+            "item" : "Federal Way Community Caregiving Network",
+            "count" : "3"
+          }, {
+            "item" : "Vashon Maury Community Food Bank",
+            "count" : "3"
+          }, {
+            "item" : "YMCA of Greater Seattle",
+            "count" : "3"
+          }, {
+            "item" : "University District Service League",
+            "count" : "2"
+          }, {
+            "item" : "YouthCare",
+            "count" : "2"
+          }, {
+            "item" : "Filipino Community of Seattle",
+            "count" : "2"
+          } ],
+          "smallest" : "Algona/Pacific Food Pantry",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255597,
+        "name" : "Location",
+        "dataTypeName" : "text",
+        "description" : "Location of the service",
+        "fieldName" : "location",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 102040707,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "YWCA Opportunity Place",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Praisealujah",
+            "count" : "4"
+          }, {
+            "item" : "Vedic Cultural Center",
+            "count" : "4"
+          }, {
+            "item" : "OSL",
+            "count" : "3"
+          }, {
+            "item" : "Vashon Maury Community Food Bank",
+            "count" : "3"
+          }, {
+            "item" : "Community Resource Network",
+            "count" : "3"
+          }, {
+            "item" : "Snoqualmie Valley Food Bank",
+            "count" : "2"
+          }, {
+            "item" : "Eritrean Association in Greater Seattle",
+            "count" : "2"
+          }, {
+            "item" : "First United Methodist Church of Seattle",
+            "count" : "2"
+          }, {
+            "item" : "Victory Outreach Seattle",
+            "count" : "2"
+          }, {
+            "item" : "Pike Market Senior Center",
+            "count" : "2"
+          }, {
+            "item" : "All Pilgrims Christian Church",
+            "count" : "2"
+          }, {
+            "item" : "Lake City Court",
+            "count" : "2"
+          }, {
+            "item" : "Food Bank",
+            "count" : "2"
+          }, {
+            "item" : "Bakhita Gardens",
+            "count" : "1"
+          }, {
+            "item" : "Kenmore Senior Center",
+            "count" : "1"
+          }, {
+            "item" : "Lighthouse",
+            "count" : "1"
+          }, {
+            "item" : "St Paul's United Church of Christ",
+            "count" : "1"
+          }, {
+            "item" : "UW Bothell/Cascadia College",
+            "count" : "1"
+          }, {
+            "item" : "Northgate Community Center",
+            "count" : "1"
+          }, {
+            "item" : "Sno-Valley Food Bank",
+            "count" : "1"
+          } ],
+          "smallest" : "Abbey Ridge Apartments",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255598,
+        "name" : "Operational Status",
+        "dataTypeName" : "text",
+        "description" : "Closed, Limited Operations, Open, or Unknown",
+        "fieldName" : "operational_status",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 102040706,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "Open",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Open",
+            "count" : "268"
+          } ],
+          "smallest" : "Open",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255600,
+        "name" : "Who They Serve",
+        "dataTypeName" : "text",
+        "description" : "Details if the service is for or limited to a specific population",
+        "fieldName" : "who_they_serve",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 102040703,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "Youth and Young Adults",
+          "null" : "0",
+          "top" : [ {
+            "item" : "General Public",
+            "count" : "127"
+          }, {
+            "item" : "Older Adults 60+ and Eligible Participants",
+            "count" : "62"
+          }, {
+            "item" : "Contact Agency for Any Eligibility Requirements",
+            "count" : "38"
+          }, {
+            "item" : "Youth and Young Adults",
+            "count" : "33"
+          }, {
+            "item" : "Food Bank: General Public \nMeals: Older Adults 60+ and Eligible Participants",
+            "count" : "3"
+          }, {
+            "item" : "Older Adults 55+ and Eligible Participants",
+            "count" : "2"
+          }, {
+            "item" : "Odessa Brown Childrens Clinic Patient Families",
+            "count" : "1"
+          }, {
+            "item" : "Older Adults 50+ and Eligible Participants",
+            "count" : "1"
+          }, {
+            "item" : "Older Adults 55+ Who Have Requested Meals",
+            "count" : "1"
+          } ],
+          "smallest" : "Contact Agency for Any Eligibility Requirements",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255601,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "address",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 102040710,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "S 221st St & 29th Ave S, Des Moines, WA 98198",
+          "null" : "0",
+          "top" : [ {
+            "item" : "5513 S Cloverdale St, Seattle, WA 98118",
+            "count" : "2"
+          }, {
+            "item" : "500 Broadway E, Seattle, WA 98102",
+            "count" : "1"
+          }, {
+            "item" : "4040 S 188th St, Suite 100, SeaTac, WA 98188",
+            "count" : "1"
+          }, {
+            "item" : "3939 S Othello St,  Suite 101, Seattle, WA 98118",
+            "count" : "1"
+          }, {
+            "item" : "1215 Thomas, Seattle, WA 98109",
+            "count" : "1"
+          }, {
+            "item" : "17229 32nd Ave S, SeaTac, WA 98188",
+            "count" : "1"
+          }, {
+            "item" : "8023 Green Lake Dr N, Seattle, WA 98103",
+            "count" : "1"
+          }, {
+            "item" : "11050 8th Ave NE, Seattle, WA 98125",
+            "count" : "1"
+          }, {
+            "item" : "1720 1/2 Wells St, Enumclaw, WA 98022",
+            "count" : "1"
+          }, {
+            "item" : "97 S Main St, Seattle, WA 98104",
+            "count" : "1"
+          }, {
+            "item" : "12526 33rd Ave NE, Seattle, WA 98125",
+            "count" : "1"
+          }, {
+            "item" : "14812 Main St, Bellevue, WA 98007",
+            "count" : "1"
+          }, {
+            "item" : "4851 Tolt Ave, Carnation, WA 98014",
+            "count" : "1"
+          }, {
+            "item" : "4326 337th Place SE, Fall City, WA 98024",
+            "count" : "1"
+          }, {
+            "item" : "179 1st Ave SE, Issaquah, WA 98027",
+            "count" : "1"
+          }, {
+            "item" : "2808 S 354th Ln, Federal Way, WA 98003",
+            "count" : "1"
+          }, {
+            "item" : "Occidental Ave S and S Main St, Seattle, WA 98104",
+            "count" : "1"
+          }, {
+            "item" : "5515 Phinney Ave N, Seattle, WA 98103",
+            "count" : "1"
+          }, {
+            "item" : "210 S Lucile, Seattle , WA 98108",
+            "count" : "1"
+          }, {
+            "item" : "7817 S 125th St, Seattle, WA 98178",
+            "count" : "1"
+          } ],
+          "smallest" : "10004 SW Bank Rd, Vashon, WA 98070",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255602,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "latitude",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 102040711,
+        "cachedContents" : {
+          "non_null" : "232",
+          "largest" : "48.0530476",
+          "null" : "36",
+          "top" : [ {
+            "item" : "47.5500465",
+            "count" : "2"
+          }, {
+            "item" : "47.717042",
+            "count" : "2"
+          }, {
+            "item" : "47.2987135",
+            "count" : "2"
+          }, {
+            "item" : "47.3546154",
+            "count" : "2"
+          }, {
+            "item" : "47.5261434",
+            "count" : "2"
+          }, {
+            "item" : "47.661853",
+            "count" : "1"
+          }, {
+            "item" : "47.3755391",
+            "count" : "1"
+          }, {
+            "item" : "47.3861959",
+            "count" : "1"
+          }, {
+            "item" : "47.4022373",
+            "count" : "1"
+          }, {
+            "item" : "47.609283",
+            "count" : "1"
+          }, {
+            "item" : "47.4892601",
+            "count" : "1"
+          }, {
+            "item" : "47.60104542",
+            "count" : "1"
+          }, {
+            "item" : "47.607646",
+            "count" : "1"
+          }, {
+            "item" : "47.6653128",
+            "count" : "1"
+          }, {
+            "item" : "47.6756763",
+            "count" : "1"
+          }, {
+            "item" : "47.5842083",
+            "count" : "1"
+          }, {
+            "item" : "47.332001",
+            "count" : "1"
+          }, {
+            "item" : "47.6488782",
+            "count" : "1"
+          }, {
+            "item" : "47.6597609",
+            "count" : "1"
+          }, {
+            "item" : "47.3256699",
+            "count" : "1"
+          } ],
+          "smallest" : "47.20533037",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255603,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "longitude",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 102040712,
+        "cachedContents" : {
+          "non_null" : "232",
+          "largest" : "-121.3764638",
+          "null" : "36",
+          "top" : [ {
+            "item" : "-122.3086459",
+            "count" : "2"
+          }, {
+            "item" : "-122.320142",
+            "count" : "2"
+          }, {
+            "item" : "-122.2871358",
+            "count" : "2"
+          }, {
+            "item" : "-122.1695967",
+            "count" : "2"
+          }, {
+            "item" : "-122.2624573",
+            "count" : "2"
+          }, {
+            "item" : "-122.2857324",
+            "count" : "2"
+          }, {
+            "item" : "-122.1223595",
+            "count" : "1"
+          }, {
+            "item" : "-122.284044",
+            "count" : "1"
+          }, {
+            "item" : "-122.2015809",
+            "count" : "1"
+          }, {
+            "item" : "-122.1463239",
+            "count" : "1"
+          }, {
+            "item" : "-122.3178395",
+            "count" : "1"
+          }, {
+            "item" : "-122.2934033",
+            "count" : "1"
+          }, {
+            "item" : "-122.3092827",
+            "count" : "1"
+          }, {
+            "item" : "-122.3155223",
+            "count" : "1"
+          }, {
+            "item" : "-122.2889468",
+            "count" : "1"
+          }, {
+            "item" : "-122.3085629",
+            "count" : "1"
+          }, {
+            "item" : "-122.3124319",
+            "count" : "1"
+          }, {
+            "item" : "-121.9874376",
+            "count" : "1"
+          }, {
+            "item" : "-122.3410813",
+            "count" : "1"
+          }, {
+            "item" : "-122.3442384",
+            "count" : "1"
+          } ],
+          "smallest" : "-122.4688823",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255604,
+        "name" : "Phone Number",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "phone_number",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 102040713,
+        "cachedContents" : {
+          "non_null" : "266",
+          "largest" : "N/A",
+          "null" : "2",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "20"
+          }, {
+            "item" : "(206)-878-2660",
+            "count" : "16"
+          }, {
+            "item" : "(206)-538-6567",
+            "count" : "13"
+          }, {
+            "item" : "(206)-695-7510",
+            "count" : "11"
+          }, {
+            "item" : "(425)-869-6000",
+            "count" : "10"
+          }, {
+            "item" : "(206)-347-6629",
+            "count" : "5"
+          }, {
+            "item" : "(206)-463-6332",
+            "count" : "3"
+          }, {
+            "item" : "(253)-661-0505",
+            "count" : "3"
+          }, {
+            "item" : "(206)-722-9372",
+            "count" : "2"
+          }, {
+            "item" : "(206)-727-6248",
+            "count" : "2"
+          }, {
+            "item" : "(425)-430-8229",
+            "count" : "2"
+          }, {
+            "item" : "(206)-251-8971",
+            "count" : "2"
+          }, {
+            "item" : "(206)-227-8659",
+            "count" : "2"
+          }, {
+            "item" : "(206)-367-3477",
+            "count" : "2"
+          }, {
+            "item" : "(206)-972-2524",
+            "count" : "2"
+          }, {
+            "item" : "(206)-622-5555",
+            "count" : "2"
+          }, {
+            "item" : "(206)-523-7060",
+            "count" : "2"
+          }, {
+            "item" : "(206)-728-2773",
+            "count" : "2"
+          }, {
+            "item" : "(206)-632-1635",
+            "count" : "2"
+          }, {
+            "item" : "(253)-520-3550",
+            "count" : "2"
+          } ],
+          "smallest" : "(206)-216-4102",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255605,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "description" : "",
+        "fieldName" : "website",
+        "position" : 10,
+        "renderTypeName" : "url",
+        "tableColumnId" : 114449532,
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 626255606,
+        "name" : "Days/Hours",
+        "dataTypeName" : "text",
+        "description" : "When the service is open",
+        "fieldName" : "days_hours",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 102040702,
+        "cachedContents" : {
+          "non_null" : "241",
+          "largest" : "Wednesday, Thursday, Saturday",
+          "null" : "27",
+          "top" : [ {
+            "item" : "Monday, Tuesday, Wednesday, Thursday, Friday",
+            "count" : "53"
+          }, {
+            "item" : "Wednesday",
+            "count" : "16"
+          }, {
+            "item" : "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
+            "count" : "13"
+          }, {
+            "item" : "Thursday",
+            "count" : "13"
+          }, {
+            "item" : "Monday, Wednesday, Friday",
+            "count" : "12"
+          }, {
+            "item" : "Tuesday",
+            "count" : "11"
+          }, {
+            "item" : "Saturday",
+            "count" : "11"
+          }, {
+            "item" : "Friday",
+            "count" : "10"
+          }, {
+            "item" : "Monday, Tuesday, Wednesday, Thursday",
+            "count" : "10"
+          }, {
+            "item" : "Monday",
+            "count" : "7"
+          }, {
+            "item" : "Tuesday, Friday",
+            "count" : "5"
+          }, {
+            "item" : "Wednesday, Friday",
+            "count" : "5"
+          }, {
+            "item" : "Tuesday, Wednesday, Thursday",
+            "count" : "5"
+          }, {
+            "item" : "Tuesday, Wednesday",
+            "count" : "4"
+          }, {
+            "item" : "Monday, Wednesday",
+            "count" : "4"
+          }, {
+            "item" : "Monday, Tuesday, Wednesday",
+            "count" : "4"
+          }, {
+            "item" : "Monday, Tuesday, Thursday",
+            "count" : "4"
+          }, {
+            "item" : "Wednesday, Thursday, Friday",
+            "count" : "4"
+          }, {
+            "item" : "Tuesday, Thursday",
+            "count" : "4"
+          }, {
+            "item" : "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
+            "count" : "3"
+          } ],
+          "smallest" : "Friday",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      }, {
+        "id" : 626255607,
+        "name" : "Date Updated",
+        "dataTypeName" : "text",
+        "description" : "Date the data was last updated",
+        "fieldName" : "date_updated",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 162114257,
+        "cachedContents" : {
+          "non_null" : "268",
+          "largest" : "8/9/2025",
+          "null" : "0",
+          "top" : [ {
+            "item" : "8/12/2025",
+            "count" : "70"
+          }, {
+            "item" : "8/7/2025",
+            "count" : "38"
+          }, {
+            "item" : "8/5/2025",
+            "count" : "31"
+          }, {
+            "item" : "2/4/2026",
+            "count" : "27"
+          }, {
+            "item" : "8/4/2025",
+            "count" : "23"
+          }, {
+            "item" : "2/5/2026",
+            "count" : "22"
+          }, {
+            "item" : "7/21/2025",
+            "count" : "15"
+          }, {
+            "item" : "7/22/2025",
+            "count" : "11"
+          }, {
+            "item" : "7/28/2025",
+            "count" : "6"
+          }, {
+            "item" : "7/25/2025",
+            "count" : "6"
+          }, {
+            "item" : "2/1/2026",
+            "count" : "5"
+          }, {
+            "item" : "8/11/2025",
+            "count" : "3"
+          }, {
+            "item" : "11/5/2025",
+            "count" : "3"
+          }, {
+            "item" : "8/13/2025",
+            "count" : "2"
+          }, {
+            "item" : "2/1/2025",
+            "count" : "2"
+          }, {
+            "item" : "8/2/2025",
+            "count" : "1"
+          }, {
+            "item" : "2/2/2026",
+            "count" : "1"
+          }, {
+            "item" : "8/9/2025",
+            "count" : "1"
+          }, {
+            "item" : "8/20/2025",
+            "count" : "1"
+          } ],
+          "smallest" : "11/5/2025",
+          "count" : "268",
+          "cardinality" : "268"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Department" : {
+            "Department" : "Human Services Department"
+          },
+          "Common Core" : {
+            "Contact Email" : "open.data@seattle.gov",
+            "Publisher" : "data.seattle.gov"
+          },
+          "Refresh Frequency" : {
+            "Frequency" : "Annually"
+          }
+        },
+        "rowLabel" : "Food Resource (Food Bank or Meal Program)",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "ucg6-6ndy",
+        "displayName" : "Clemens, Katie",
+        "screenName" : "Clemens, Katie",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ucg6-6ndy",
+        "displayName" : "Clemens, Katie",
+        "screenName" : "Clemens, Katie",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "meals", "food banks", "food", "emergency", "human services", "hsd", "human services department", "emergency food and meals seattle and king county" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-22tp-93z6_qg5q", "00000000-0000-0000-A6A9-5D33332BB747", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Algona/Pacific Food Pantry", "Algona/Pacific Food Pantry - Food Distribution Center", "Open", "General Public", "603 3rd Ave SE, Pacific, WA 98047", "47.265011", "-122.236771", "(253)-351-0450", [ "https://networks.whyhunger.org/organisation/41599", null ], "Tuesday", "7/22/2025" ]
+, [ "row-hhzg~nma5~38mt", "00000000-0000-0000-A7B2-5C4A73AF8EE5", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Asian Counseling and Referral Service (ACRS)", "ACRS Food Bank and Meals", "Open", "General Public", "800 S Weller St, Seattle, WA 98004", "47.5843633", "-122.3303783", "(206)-695-7510", [ "https://acrs.org/services/aging-services-for-older-adults/acrs-food-bank/", null ], "Wednesday, Friday", "8/7/2025" ]
+, [ "row-c2g9_sw6h.qhif", "00000000-0000-0000-0723-87A727D9665F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Club Bamboo and Hmong Senior Club", "Open", "Older Adults 60+ and Eligible Participants", "3639 Martin Luther King Jr Way S, Seattle, WA 98144", "47.570897", "-122.2973881", "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-4p79-7f6s-sbt6", "00000000-0000-0000-B434-1D2CBD1081F6", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Duoc Su Senior Nutrition Program", "Open", "Older Adults 60+ and Eligible Participants", "6924 42nd Ave S , Seattle, WA 98118", "47.5400001", "-122.2803173", "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Saturday", "7/21/2025" ]
+, [ "row-z5t4~g654~egj2", "00000000-0000-0000-1B50-A27DAF93BF21", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Friendly Island of Tonga Seniors", "Open", "Older Adults 60+ and Eligible Participants", "4620 SW Graham St, Seattle, WA 98136", "47.546979", "-122.3922666", "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], null, "7/22/2025" ]
+, [ "row-zrpc-effn_2wng", "00000000-0000-0000-05A2-2DB2DDBC4534", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Kent Memorial Park (Nepali and Samoan Meal Program)", "Open", "Older Adults 60+ and Eligible Participants", "850 Central Ave N, Kent, WA 98032", "47.3901637", "-122.2304706", "(253)-856-5000", [ "https://www.kentwa.gov/Home/Components/FacilityDirectory/FacilityDirectory/250/318", null ], null, "7/22/2025" ]
+, [ "row-2iqr_9g48-bv9w", "00000000-0000-0000-E5B1-DDD7338C9296", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Korean Senior Club Miller Community Center", "Open", "Older Adults 60+ and Eligible Participants", "330 19th Ave E, Seattle, WA, 98122", "47.6219158", "-122.3069784", "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Tuesday, Friday", "8/7/2025" ]
+, [ "row-i248~pw54.8g9x", "00000000-0000-0000-6C43-0F7D9003A503", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Fillipino American Community of Puget Sound", "Open", "Older Adults 60+ and Eligible Participants", "103 6th Ave N, Algona, WA 98001", null, null, "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Thursday", "7/21/2025" ]
+, [ "row-2687.823u.4ef4", "00000000-0000-0000-18FF-C04F4AC39A77", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Nepali Wellness", "Open", "Older Adults 60+ and Eligible Participants", "25720 104th Ave SE, Kent, WA 98030", null, null, "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Tuesday", "7/21/2025" ]
+, [ "row-gb94.8y39~rx54", "00000000-0000-0000-6BC2-58B91311070A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Filipino Community of Seattle", "Open", "Older Adults 60+ and Eligible Participants", "5740 Martin Luther King Jr Way S, Seattle, WA 98118", "47.5500465", "-122.2871358", "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Monday, Tuesday, Thursday, Friday", "7/21/2025" ]
+, [ "row-6v48_ugyi~pjhh", "00000000-0000-0000-10F7-A4D8AAD15EB2", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Seattle Korean Elders Association Center Park", "Open", "Older Adults 60+ and Eligible Participants", "2121 26th Ave S, Seattle, WA 98144", "47.5842083", "-122.2996639", "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Tuesday, Friday", "7/21/2025" ]
+, [ "row-epnk-72ef-v4e4", "00000000-0000-0000-6B02-A00EC6E3FC25", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Vietnamese Senior Association Garfield Community Center", "Open", "Older Adults 60+ and Eligible Participants", "2323 E Cherry St, Seattle, WA 98112", "47.6076951", "-122.3021127", "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Tuesday, Friday", "7/21/2025" ]
+, [ "row-s8vb_gvr2~4kez", "00000000-0000-0000-1D1B-9CDC233943D6", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Asian Counseling and Referral Service (ACRS)", "Pyung An Seniors Academy", "Open", "Older Adults 60+ and Eligible Participants", "526 12th St SE, Auburn, WA 98002", null, null, "(206)-695-7510", [ "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/", null ], "Monday, Tuesday, Thursday", "7/21/2025" ]
+, [ "row-ejms~33aj~bejg", "00000000-0000-0000-3464-80B8FF73D60E", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Atrium Kitchen", "Atrium Kitchen", "Open", "Older Adults 60+ and Eligible Participants", "93 Pike St, Suite 101, Seattle, WA 98101", "47.608632", "-122.3401409", "(206)-829-9525", [ "https://www.atriumkitchenpikeplace.com/", null ], "Thursday", "8/12/2025" ]
+, [ "row-z2e8~i4xv~hzgf", "00000000-0000-0000-721E-8D91D501E36E", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Auburn Food Bank", "Auburn Food Bank", "Open", "General Public", "2804 Auburn Way N, Auburn, WA 98002", "47.332001", "-122.2211517", "(253)-833-8925", [ "https://www.theauburnfoodbank.org/food", null ], "Monday, Tuesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-uy28-ffj4_dku4", "00000000-0000-0000-B974-63927B0CBE74", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Aurora Commons", "Aurora Commons", "Open", "General Public", "8914 Aurora Ave N, Seattle, WA 98103", "47.6938816", "-122.3442384", "(206)-299-2278", [ "https://www.auroracommons.org/", null ], "Monday, Tuesday, Wednesday, Thursday", "8/12/2025" ]
+, [ "row-trk8-f2kw.d23e", "00000000-0000-0000-BCC6-191BCBB0F98B", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Ballard Food Bank", "Ballard Food Bank", "Open", "General Public", "1400 Leary Way NW, Seattle, WA 98107", "47.66404713", "-122.3740701", "(206)-789-7800", [ "https://www.ballardfoodbank.org/", null ], "Monday, Tuesday, Wednesday, Thursday", "8/12/2025" ]
+, [ "row-52x5-4fun.vw3t", "00000000-0000-0000-CFC9-7BBE96E83A50", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Bethany Community Church", "Bethany Food Bank at Green Lake", "Open", "General Public", "8023 Green Lake Dr N, Seattle, WA 98103", "47.6873209", "-122.3411453", "(206)-524-9000", [ "https://www.churchbcc.org/missions/localmissions", null ], "Monday", "7/22/2025" ]
+, [ "row-8ug9~cwy7~6wej", "00000000-0000-0000-D63D-C5B10CE79147", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Blessed Sacrament", "First United Methodist Church of Seattle", "Open", "General Public", "5050 8th Ave NE, Seattle, WA 98105", "47.6664368", "-122.3190289", "(206)-547-3020", [ "https://www.blessed-sacrament.org/outreach", null ], "Sunday, Friday", "8/12/2025" ]
+, [ "row-2kg6_wfpt.3v35", "00000000-0000-0000-8823-EB86A2843E74", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Bread of Life Mission", "Bread of Life Mission", "Open", "General Public", "97 S Main St, Seattle, WA 98104", "47.5999268", "-122.334605", "(206)-682-3579", [ "https://www.breadoflifemission.org/emergency-services", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-ru2a_jbhy_vbjz", "00000000-0000-0000-0E4C-15A3504A24C4", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Byrd Barr Place", "The Market", "Open", "General Public", "722 18th Ave, Seattle, WA 98122", "47.6088532", "-122.3085629", "(206)-812-4940", [ "https://www.byrdbarrplace.org/programs-services/food-bank/", null ], "Tuesday, Wednesday, Thursday", "7/22/2025" ]
+, [ "row-es7n~xqs5.u43x", "00000000-0000-0000-9582-F4E6E57DDF6B", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "African American Catholic Community Services", "Open", "Older Adults 60+ and Eligible Participants", "1323 S Yakima Ave, Tacoma, WA 98401", null, null, "(253)-383-3697", [ "https://ccsww.org/services/meal-sites/", null ], "Thursday", "7/21/2025" ]
+, [ "row-5qju-2htb-5ehm", "00000000-0000-0000-0948-43D3B363929D", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Eatonville Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "305 W Center St, Eatonville, WA 98328", null, null, "(360)-832-3838", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Wednesday, Friday", "8/12/2025" ]
+, [ "row-x4ej_p3c4~mh93", "00000000-0000-0000-0F76-98E90997C172", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Fife Community Center", "Open", "Older Adults 60+ and Eligible Participants", "2111 54th Ave E, Fife, WA 98424", null, null, "(253)-896-8662", [ "https://ccsww.org/services/meal-sites/", null ], "Wednesday, Friday", "8/12/2025" ]
+, [ "row-fhds-kmtm_zf4k", "00000000-0000-0000-AD08-E709D4960FB7", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Gig Harbor Peninsula Lutheran Church", "Open", "Older Adults 60+ and Eligible Participants", "6509 38th Ave NW, Gig Harbor, WA 98335", null, null, "(253)-851-3511", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Wednesday", "8/12/2025" ]
+, [ "row-t9tp-ij6j-a5yb", "00000000-0000-0000-3B91-A753C3859D39", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Japanese Tillicum Community Center", "Open", "Older Adults 60+ and Eligible Participants", "14916 Washington, Tillicum, WA 98499", null, null, "(253)-584-1280", [ "https://ccsww.org/services/meal-sites/", null ], "Wednesday", "8/12/2025" ]
+, [ "row-ey45~8aep.2mny", "00000000-0000-0000-FCB4-0A8CDE558464", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Lakewood Catholic Community Services", "Open", "Older Adults 60+ and Eligible Participants", "5705 Main St SW, Lakewood, WA 98499", null, null, "(253)-474-1200", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Tuesday", "8/12/2025" ]
+, [ "row-b4pd_i6ar-k8q5", "00000000-0000-0000-2E84-0B284336C5DD", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Lighthouse", "Open", "Older Adults 60+ and Eligible Participants", "5016 S A St, Tacoma, WA 98408", null, null, "(253)-591-5083 & (253)-426-1282", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-zd83~3hw6-b3yf", "00000000-0000-0000-0E0D-EAE9BD4DC666", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Parkland Trinity Lutheran Church", "Open", "Older Adults 60+ and Eligible Participants", "12115 Park Ave S, Parkland, WA 98444", null, null, "(253)-537-0201", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Friday", "8/12/2025" ]
+, [ "row-dbry~vr72~6qeb", "00000000-0000-0000-3E7E-B79C607FD9B6", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Tacoma Portland Ave Community Center", "Open", "Older Adults 60+ and Eligible Participants", "3513 E Portland Ave, Tacoma, WA 98408", null, null, "(253)-591-5391", [ "https://ccsww.org/services/meal-sites/", null ], "Tuesday, Thursday", "8/12/2025" ]
+, [ "row-7rhd_hxqj~ria2", "00000000-0000-0000-9CA8-80A9923478D7", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Puyallup Activity Center", "Open", "Older Adults 60+ and Eligible Participants", "210 W Pioneer, Puyallup, WA 98371", null, null, "(253)-841-5447", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Wednesday, Friday", "8/12/2025" ]
+, [ "row-vfxq~fgis~mt8r", "00000000-0000-0000-5026-406FD06FEA0C", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Ruston Pt. Defiance Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "4716 N Baltimore, Tacoma, WA 98407", null, null, "(253)-756-0601", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Tuesday, Wednesday, Thursday", "8/12/2025" ]
+, [ "row-f2na_n3hn.5tc8", "00000000-0000-0000-52DD-CB2140A5A9E4", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Steilacoom Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "2301 Worthington, Steilacoom, WA 98388", null, null, "(253)-581-1076", [ "https://ccsww.org/services/meal-sites/", null ], "Tuesday, Wednesday, Friday", "8/12/2025" ]
+, [ "row-v2i8~zwb9~t3km", "00000000-0000-0000-4AFD-6C4C8F1F15C8", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Sumner Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "15506 62nd St, East Sumner, WA 98390", null, null, "(253)-299-5736", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/12/2025" ]
+, [ "row-bqyq-x4ii~pwbj", "00000000-0000-0000-3420-C11EA4B68094", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Tillicum Community Center", "Open", "Older Adults 60+ and Eligible Participants", "14916 SW Washington, Tillicum, WA 98499", null, null, "(253)-584-12880", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Thursday", "8/12/2025" ]
+, [ "row-54td-spme-knrz", "00000000-0000-0000-5DA0-4C269BF50075", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "University Place Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "2534 Grandview Dr W, University Place, WA 98466", null, null, "(253)-564-1992", [ "https://ccsww.org/services/meal-sites/", null ], "Friday", "8/12/2025" ]
+, [ "row-p9jv_fjw9_tqvn", "00000000-0000-0000-8A31-F1CBB4D55F1E", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Catholic Community Services of  Western Washington", "Federal Way Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "4016 S 352nd St, Auburn, WA 98001", "47.2867569", "-122.2862589", "(253)-838-3604", [ "https://www.federalwayseniorcenter.org", null ], "Monday, Thursday", "8/12/2025" ]
+, [ "row-ncdc~f29e.6faa", "00000000-0000-0000-82EB-40C96832E305", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Issaquah Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "180 E Sunset Way, Issaquah, WA 98207", "47.5311594", "-122.0331071", "(425)-679-0342", [ "https://ccsww.org/services/issaquah-meals/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-kaen-fk4q-3tr8", "00000000-0000-0000-492B-44C7BC7D7421", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "North Bellevue Community Center", "Open", "Older Adults 60+ and Eligible Participants", "4063 148th Ave NE, Bellevue, WA 98007", "47.647434", "-122.1450803", "(425)-452-7681", [ "https://www.bellevuewa.gov/city-government/departments/parks/community-centers/north-bellevue-community-center", null ], "Monday, Tuesday, Wednesday, Friday", "7/21/2025" ]
+, [ "row-sp64~58vc_cnrp", "00000000-0000-0000-3876-09B618AC3A62", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Pacific/Algona Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "100 3rd Ave SW, Pacific, WA 98047", "47.2642772", "-122.2536081", "(253)-929-1150", [ "https://www.pacificwa.gov/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-c786.v8vu-cev8", "00000000-0000-0000-FA03-E8D2E47DBBD1", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Peter Kirk Community Center", "Open", "Older Adults 60+ and Eligible Participants", "352 Kirkland Ave, Kirkland, WA 98033", "47.67621", "-122.201035", "(425)-587-3360", [ "https://www.kirklandwa.gov/depart/parks/About_Parks_and_Community_Services/Senior_Services.htm", null ], "Tuesday, Wednesday, Friday", "7/21/2025" ]
+, [ "row-68gd~kmzr-dzxi", "00000000-0000-0000-789E-7DA86652E6C7", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Phoenix Center", "Open", "Contact Agency for Any Eligibility Requirements", "2329 Rainier Ave S, Seattle, WA 98144", "47.5822614", "-122.3015923", "(206)-623-7219", [ "https://www.ccsww.org/get-help/shelter-homeless-services/lazarus-center/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/12/2025" ]
+, [ "row-4nbr.i2i2-z9ug", "00000000-0000-0000-879F-22980236A37F", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Catholic Community Services of  Western Washington", "Snoqualmie Valley Food Bank", "Open", "Older Adults 60+ and Eligible Participants", "31605 3rd Ave, Black Diamond, WA 98010", "47.3183476", "-122.0054494", "(360)-886-1011", [ "https://www.blackdiamondcommcenter.org/", null ], "Monday, Tuesday, Wednesday, Thursday", "7/25/2025" ]
+, [ "row-4icr~wx7v_qv2g", "00000000-0000-0000-C3AE-DFEDC4669FAE", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Victory Outreach Seattle", "Open", "Older Adults 60+ and Eligible Participants", "2045 S 216th St, Des Moines, WA 98198", "47.4072518", "-122.3057897", "(206)-878-1642", [ "https://www.desmoineswa.gov/cms/one.aspx?pageId=17490998", null ], "Monday, Tuesday, Wednesday, Thursday", "8/7/2025" ]
+, [ "row-5jqs-m6y7~fcew", "00000000-0000-0000-316F-606CB16AC41D", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Eastside Community Centr", "Open", "Older Adults 60+ and Eligible Participants", "1721 E 56th St, Tacoma, WA 98404", null, null, "(253)-404-3935", [ "https://ccsww.org/services/meal-sites/", null ], "Tuesday, Thursday", "7/21/2025" ]
+, [ "row-2pmb-wsnh~ex74", "00000000-0000-0000-1B60-6F6E533E44AE", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Tacoma Beacon Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "415 S 13th, Tacoma, WA 98402", null, null, "(253)-591-5083", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-fpi3~xawf.2hqp", "00000000-0000-0000-982E-A4131C2EDE44", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of  Western Washington", "Buckley Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "811 Main St, Buckley, WA 98321", null, null, "(360)-829-0190", [ "https://ccsww.org/services/meal-sites/", null ], "Monday, Wednesday, Friday", "8/12/2025" ]
+, [ "row-kh7r-z8bq-gkx6", "00000000-0000-0000-C6A1-83E2937238A1", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Catholic Community Services of Western Washington & SPS", "Tukwila Community Center", "Open", "Contact Agency for Any Eligibility Requirements", "12424 42nd Ave S, Tukwila, WA 98168", "47.4910151", "-122.2785589", "(206)-768-2822", [ "https://ccsww.org/services/meal-sites/", null ], null, "8/12/2025" ]
+, [ "row-bj4b~p3gr.kaep", "00000000-0000-0000-69A9-D9F87DE3FB29", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Plateau Outreach Ministries", "Enumclaw Food Bank", "Open", "Contact Agency for Any Eligibility Requirements", "1720 1/2 Wells St, Enumclaw, WA 98022", "47.20533037", "-121.990026", "(360)-825-8961", [ "https://www.plateauoutreach.org/", null ], "Monday, Tuesday, Wednesday", "2/2/2026" ]
+, [ "row-d7cy_7agh_hemt", "00000000-0000-0000-B1EF-D4A68836C50E", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Cedar Park Kenmore Church", "Kenmore Food Bank", "Open", "General Public", "18737 68th Ave NE, Kenmore, WA 98028", "47.765377", "-122.2498724", "(425)-939-1377", [ "https://cpkenmore.com/food-bank", null ], "Monday", "7/25/2025" ]
+, [ "row-64hv-x22t_ktc6", "00000000-0000-0000-D07A-9B053BCD277E", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Church By The Side Of The Road", "Church By the Side of the Road", "Open", "General Public", "3455 S 148th St, Tukwila, WA 98168", "47.469863", "-122.2871757", "(206)-243-5024", [ "https://www.cbsr.org/", null ], "Tuesday", "8/12/2025" ]
+, [ "row-cipq-7i6n.6sks", "00000000-0000-0000-12BE-5C4029345471", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Community Lunch on Capitol Hill", "All Pilgrims Christian Church", "Open", "Contact Agency for Any Eligibility Requirements", "509 10th Ave E, Seattle, WA 98102", "47.623387", "-122.320142", "(206)-972-2524", [ "https://www.communitylunch.org/about-1", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "7/21/2025" ]
+, [ "row-3e2k-32hb-a22u", "00000000-0000-0000-9103-0384B074860D", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Community Lunch on Capitol Hill", "All Pilgrims Christian Church", "Open", "General Public", "500 Broadway E, Seattle, WA 98102", "47.6233603", "-122.3203773", "(206)-972-2524", [ "https://www.communitylunch.org/about-1", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "7/25/2025" ]
+, [ "row-xm62_6n3r_45m2", "00000000-0000-0000-875E-3A033E884B9F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Community Network Council", "Community Network Council", "Open", "General Public", "1819 Central Ave S, Suite 72, Kent, WA 98032", "47.362482", "-122.2307681", "N/A", [ "https://wacnc.org/meals-for-neighbors-program/", null ], "Tuesday, Thursday", "8/13/2025" ]
+, [ "row-ij2x.say7~7paw", "00000000-0000-0000-B23D-FD349814F34F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Abbey Ridge Apartments", "Open", "Youth and Young Adults", "3035 S 204th St, SeaTac, WA 98198", null, null, "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-ctvt-zv42_rt6p", "00000000-0000-0000-2464-4E3D488D1AC4", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Angle Lake Park", "Open", "Youth and Young Adults", "19408 International Blvd, SeaTac, WA 98188", "47.42802993", "-122.2928406", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-wgwc_68u6~9acx", "00000000-0000-0000-387E-4D641EF6F28A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Des Moines Field House", "Open", "Youth and Young Adults", "1000 S 220th St, Des Moines, WA 98198", "47.4049627", "-122.3208554", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Wednesday, Friday", "8/11/2025" ]
+, [ "row-9rgq_sptv_za5v", "00000000-0000-0000-7223-FEE14B6EFB60", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Des Moines Marina Farmers Market", "Open", "Youth and Young Adults", "22307 Dock Ave S, Des Moines, WA 98198", "47.4018118", "-122.3294018", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Saturday", "8/7/2025" ]
+, [ "row-bpem_6s5n_hgj5", "00000000-0000-0000-43E3-67804BDEB739", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Des Moines Area Food Bank", "Des Moines United Methodist Church", "Open", "General Public", "22225 9th Ave S, Des Moines, WA 98198", "47.4022373", "-122.3224371", "(206)-878-2660", [ "https://www.myfoodbank.org/services.html", null ], "Monday, Tuesday, Wednesday, Friday", "8/11/2025" ]
+, [ "row-kj5b-z5qj_7v8k", "00000000-0000-0000-BB4A-3F05A6BF5742", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Lakeview Park", "Open", "Youth and Young Adults", "422 SW 160th St, Burien, WA 98166", null, null, "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday", "8/12/2025" ]
+, [ "row-ungv_9iw9-5kp6", "00000000-0000-0000-5E94-8197164BB927", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "McMicken Park", "Open", "Youth and Young Adults", "S 166th St & 37th Ave S, SeaTac, WA 98188", "47.47755124", "-122.2852127", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-gsb5-pjgw~7mwn", "00000000-0000-0000-A7D3-3A9538C6535A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Midway Park", "Open", "Youth and Young Adults", "S 221st St & 29th Ave S, Des Moines, WA 98198", "47.4036369", "-122.2982037", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "7/25/2025" ]
+, [ "row-t73t-rp2s~zj5w", "00000000-0000-0000-AA55-B400C5880FE2", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Pine Ridge Apartments", "Open", "Youth and Young Adults", "3725 S 180th St, SeaTac, WA 98188", "47.4409849", "-122.2885294", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-ydpt-u37j-v7a3", "00000000-0000-0000-4C6E-E478FDA9248D", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Redondo Beach Park", "Open", "Youth and Young Adults", "Redondo Beach Dr S and Redondo Way S, Des Moines, WA 98198", "47.34855775", "-122.3250986", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-fb5u.jnhr_vm77", "00000000-0000-0000-D9D6-D70E1A7CA990", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Steve Cox Memorial Park", "Open", "Youth and Young Adults", "1321 SW 102nd�St, Seattle, WA 98146", null, null, "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-yyjt~zgb8-eih7", "00000000-0000-0000-6D0C-3479AEB31EE5", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Underwood Park", "Open", "Youth and Young Adults", "20th Ave S, Des Moines, WA 98198", null, null, "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-bera~58kr-ynd4", "00000000-0000-0000-0DC2-186D31AEAD75", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Valley Ridge Park", "Open", "Youth and Young Adults", "4644 S 188th St, SeaTac, WA 98188", null, null, "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-p455-xd6p_fb96", "00000000-0000-0000-DB1C-8DBCBB89BB69", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Valley View Library", "Open", "Youth and Young Adults", "17850 Military Rd S, SeaTac, WA 98188", null, null, "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-2wz2_udz6_gwyb", "00000000-0000-0000-7AAE-DE9F8414B399", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Willow Lake Apartments", "Open", "Youth and Young Adults", "3002 32nd Ave S, SeaTac, WA 98188", "47.444696", "-122.2941207", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "7/21/2025" ]
+, [ "row-f5c3_tgsd~gzde", "00000000-0000-0000-5F0B-A6BF922F5495", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Des Moines Area Food Bank", "Windsor Heights Apartments", "Open", "Youth and Young Adults", "17229 32nd Ave S, SeaTac, WA 98188", "47.448479", "-122.2956636", "(206)-878-2660", [ "https://www.myfoodbank.org/meals-for-kids.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "7/21/2025" ]
+, [ "row-tu94_ii7t.isva", "00000000-0000-0000-EAB7-4826ED01321D", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "El Centro de la Raza", "El Centro de la Raza", "Open", "Food Bank: General Public \nMeals: Older Adults 60+ and Eligible Participants", "2524 16th Ave S, Seattle, WA 98144", "47.5805157", "-122.3113797", "(206)-957-4605", [ "https://www.elcentrodelaraza.org/get-help/human-emergency-services/food-bank/", null ], "Wednesday, Thursday, Friday", "7/21/2025" ]
+, [ "row-u4ti_xv5r-ndij", "00000000-0000-0000-CEAB-5ABB0739FE75", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Epic Church", "The Giving Room", "Open", "General Public", "10510 Stone Ave N, Seattle, WA 98133", "47.7052676", "-122.3416573", "(206)-552-9586", [ "https://www.epiclifechurch.org/incarnational-ministry", null ], "Monday", "8/12/2025" ]
+, [ "row-hce6_h3se-4u8v", "00000000-0000-0000-A420-FB827A110644", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Eritrean Association in Greater Seattle", "Eritrean Association in Greater Seattle", "Open", "Older Adults 60+ and Eligible Participants", "1954 S Massachusetts St, Seattle, WA 98144", "47.58918453", "-122.3072811", "(206)-548-6387", [ "https://www.eritreanassociation.org/programs-blog/blog-post-title-four-thpy4", null ], null, "8/7/2025" ]
+, [ "row-jsrz.gs4q.6wwy", "00000000-0000-0000-37FA-434A57328357", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Fall City Community Food Pantry", "Fall City United Methodist Church", "Open", "General Public", "4326 337th Place SE, Fall City, WA 98024", "47.5662398", "-121.8906809", "(425)-269-8098", [ "https://www.fallcityfoodpantry.org/what-we-do-1", null ], "Wednesday", "8/7/2025" ]
+, [ "row-6tyf_bkpt-cgaf", "00000000-0000-0000-3F8A-74D8730C4681", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Salvation Army", "Greenwood Food Bank - Hope Market", "Open", "General Public", "9501 Greenwood Ave N, Seattle, WA 98103", "47.6984899", "-122.3557886", "N/A", [ "https://seattletemple.salvationarmy.org/seattle_temple_corps/greenwood-food-bank-1/", null ], "Tuesday, Wednesday", "11/5/2025" ]
+, [ "row-jtqx~kba8_wq8f", "00000000-0000-0000-7528-F67072530697", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "FamilyWorks", "Wallingford Food Bank", "Open", "General Public", "4318 Stone Way N, Seattle, WA 98103", "47.6597609", "-122.3444542", "(206)-647-1780", [ "https://www.familyworksseattle.org/food-banks/", null ], "Tuesday, Thursday, Friday", "11/5/2025" ]
+, [ "row-drfp.mqj6~asww", "00000000-0000-0000-2BEE-CCE778E961D8", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Federal Way Community Caregiving Network", "Christian Faith Center", "Open", "General Public", "33645 20th Ave S,�Federal Way, WA 98003", "47.2987135", "-122.3086459", "(253)-661-0505", [ "https://www.fwccn.org/services.html", null ], "Monday", "8/12/2025" ]
+, [ "row-4krb-x4p4_kbq5", "00000000-0000-0000-D212-7592ACD9601F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Federal Way Community Caregiving Network", "St. Vincent de Paul Catholic Church", "Open", "General Public", "345 S 312th, Federal Way, WA 98003", "47.2987135", "-122.3086459", "(253)-661-0505", [ "https://www.fwccn.org/services.html", null ], "Saturday", "7/25/2025" ]
+, [ "row-2zic_rbx3~w2aq", "00000000-0000-0000-CF16-46EF8DF44718", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Federal Way Food Bank", "Multi-Service Center", "Open", "General Public", "�27614 Pacific Highway S, Federal Way, WA 98003", "47.3013527", "-122.320142", "(253)-838-6810", [ "https://mschelps.org/gethelp/food/", null ], "Tuesday, Wednesday, Thursday", "8/12/2025" ]
+, [ "row-46h6.zwsa_2pb6", "00000000-0000-0000-93C2-94D68C4C1C96", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Filipino Community of Seattle", "Filipino Community of Seattle Meals and Food Bank", "Open", "Food Bank: General Public \nMeals: Older Adults 60+ and Eligible Participants", "5740 Martin Luther King Jr Way S, Seattle, WA 98144", "47.5500465", "-122.2871358", "(206)-722-9372", [ "https://www.filcommsea.org/senior-services", null ], "Monday, Tuesday, Thursday", "8/7/2025" ]
+, [ "row-rhcb_ihki-nygh", "00000000-0000-0000-F53C-361425160E1D", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Filipino Community of Seattle", "Eritrean Association in Greater Seattle", "Open", "Older Adults 60+ and Eligible Participants", "1528 Valentine Pl S, Seattle, WA 98144", "47.5888499", "-122.3070989", "(206)-722-9372", [ "https://www.filcommsea.org/index.php/programs/", null ], "Monday, Tuesday, Thursday", "8/7/2025" ]
+, [ "row-rttw~i7e9-k79t", "00000000-0000-0000-F999-BE424B401C0D", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "First Covenant Church", "First Covenant Church", "Open", "Contact Agency for Any Eligibility Requirements", "400 E Pike St, Seattle, WA 98122", "47.6142392", "-122.3263239", "(206)-322-7411", [ "https://www.firstcovenantseattle.org/outreach", null ], "Saturday", "8/12/2025" ]
+, [ "row-ph38~d9sj~a9m8", "00000000-0000-0000-56C3-6AC8CCBB63B0", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "First United Methodist Church of Seattle", "First United Methodist Church of Seattle", "Open", "General Public", "180 Denny Way, Seattle, WA 98109", "47.6188068", "-122.3531962", "(206)-622-7278", [ "https://www.firstchurchseattle.org/shared-breakfast/?fbclid=IwAR2EAykPB90--700TuZeuY3aX18yx3tXkg9lbCW8qVghb3RgTCJJnwkB7wQ", null ], "Sunday", "8/7/2025" ]
+, [ "row-8pfw~dhmp-x66i", "00000000-0000-0000-012D-94A9C93B1841", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Food Not Bombs - Seattle", "Occidental Park", "Open", "General Public", "Occidental Ave S and S Main St, Seattle, WA 98104", "47.6000475", "-122.3328885", "(206)-397-6815", [ "https://www.seattlefoodnotbombs.org/?fbclid=IwAR3T68e9asOm5ksmU_CuHK8ppZZir1QFQBRn_HbSvUCNvhDb7sGxeFXhr_g", null ], "Sunday, Saturday", "7/22/2025" ]
+, [ "row-cnva~zc9b-6hin", "00000000-0000-0000-8CF8-0F36CCA91A5A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Frelard Tamales", "Frelard Tamales", "Open", "General Public", "6412 Latona Ave NE, Seattle, WA 98115", "47.6756763", "-122.3252185", "(206)-523-6654", [ "https://www.frelardtamales.com/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/12/2025" ]
+, [ "row-xhhk.yts6~qkq2", "00000000-0000-0000-B28A-C7F7A8220075", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Greater Maple Valley Community Center", "Greater Maple Valley Community Center", "Open", "Older Adults 60+ and Eligible Participants", "22010 SE 248th St, Maple Valley, WA 98038", "47.380747", "-122.0477423", "(425)-432-1272", [ "https://www.maplevalleycc.org/", null ], "Monday, Wednesday, Friday", "8/7/2025" ]
+, [ "row-ze89.gyz9_gjba", "00000000-0000-0000-A451-83CD42EE3FA4", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Green Sprouts", "SeaTac Community Center", "Open", "Older Adults 60+ and Eligible Participants", "13735 24th Ave S, SeaTac, WA 98168", "47.4802984", "-122.3038972", "(206)-973-4690", [ "https://www.seatacwa.gov/services/senior-program", null ], "Tuesday, Wednesday, Thursday, Friday", "7/25/2025" ]
+, [ "row-eusv-np5e-4s8b", "00000000-0000-0000-7117-5999013D3440", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Help Northwest", "Help Northwest", "Open", "General Public", "404 22nd St SE, #D, Auburn, WA 98002", "47.2883898", "-122.2238173", "(206)-227-5977", [ "https://www.helpnorthwest.com/1401.html", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-paep.qr3h.umfw", "00000000-0000-0000-5D38-97EA5D9BDF41", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Highline Area Food Bank", "Highline Area Food Bank", "Open", "General Public", "18300 4th Ave S, Burien, WA 98148", "47.4383823", "-122.3275755", "(206)-433-9900", [ "https://www.highlineareafoodbank.org/", null ], "Tuesday, Thursday", "7/22/2025" ]
+, [ "row-j2rw.jfad_kkar", "00000000-0000-0000-1352-B8BFE8DF61B8", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Holy Innocents Food Pantry", "Holy Innocents Church", "Open", "General Public", "26526 NE Cherry Valley Rd, Duvall, WA 98019", "47.7482852", "-121.9818384", "(425)-788-1400", [ "https://www.holyinn.org/holy-innocents-food-pantry", null ], "Tuesday, Wednesday", "8/7/2025" ]
+, [ "row-437x~zmmc_a732", "00000000-0000-0000-F113-9B8CBC258BA1", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Holy Spirit Church", "Holy Spirit Church", "Open", "General Public", "310 3rd Ave S, Kent, WA 98032", "47.3790708", "-122.2357517", "(253)-859-0444", [ "https://www.holyspiritkent.org/", null ], "Friday", "7/28/2025" ]
+, [ "row-7879_gncw_bqs6", "00000000-0000-0000-17EE-D3F9AE74E742", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Holy Temple Evangelistic Center", "Holy Temple Evangelistic Center", "Open", "General Public", "12600 Renton Ave S, Seattle, WA 98178", "47.4917411", "-122.2393177", "(206)-722-3984", [ "https://www.facebook.com/HolyTECSeattle/", null ], null, "7/28/2025" ]
+, [ "row-27hw~36qg~d8yv", "00000000-0000-0000-5140-C92BFC34FC2F", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Bellevue Food Bank", "Open", "General Public", "14812 Main St, Bellevue, WA 98007", "47.6101989", "-122.1414751", "(425)-869-6000", [ "https://www.hopelink.org/need-help/food#collapseTen", null ], "Monday, Tuesday, Wednesday, Thursday", "8/12/2025" ]
+, [ "row-4r52~cxhk-ds5g", "00000000-0000-0000-75DF-E267E0D0B0BF", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Duvall Redemption Church", "Open", "General Public", "15305 Main St NE, Duvall, WA 98019", "47.7384956", "-121.9874376", "(425)-869-6000", [ "https://www.hopelink.org/programs/food-program/mobile-market/", null ], "Tuesday, Wednesday, Thursday", "7/22/2025" ]
+, [ "row-mtmx_g9dk-8bij", "00000000-0000-0000-061C-9F98E75DFD67", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Fall City Library", "Open", "General Public", "33415 SE 42nd Pl, Fall City, WA 98024", "47.5687511", "-121.8939291", "(425)-869-6000", [ "https://www.hopelink.org/programs/food-program/mobile-market/", null ], "Wednesday", "7/22/2025" ]
+, [ "row-r37f-z8dx-i8rq", "00000000-0000-0000-5FD2-B5CDFF627ED1", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Kenmore Community Church", "Open", "General Public", "7504 NE Bothell Way, Kenmore, WA 98028", "47.7574803", "-122.2403086", "(425)-869-6000", [ "https://www.hopelink.org/programs/food-program/mobile-market/", null ], "Thursday", "7/28/2025" ]
+, [ "row-69mg~ciu9_pm4w", "00000000-0000-0000-96CB-00637875277E", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Kenmore Senior Center", "Open", "General Public", "6910 NE 170th St, Kenmore, WA 98028", "47.752997", "-122.2498849", "(425)-869-6000", [ "https://www.hopelink.org/programs/food-program/mobile-market/", null ], "Tuesday", "7/28/2025" ]
+, [ "row-ds3t_npvx-njyt", "00000000-0000-0000-9A39-71FA1591DF55", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Kirkland Food Bank", "Open", "General Public", "11011 120th Ave NE, Kirkland, WA 98033", "47.6987817", "-122.1818137", "(425)-869-6000", [ "https://www.hopelink.org/programs/food-program/", null ], "Monday, Tuesday, Wednesday, Thursday", "8/12/2025" ]
+, [ "row-246y~2785.w3ye", "00000000-0000-0000-4B55-750E213B6A7B", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Lake Hills Elementary", "Open", "General Public", "14310 SE 12th St, Bellevue, WA 98007", "47.600419", "-122.1487891", "(425)-889-7880", [ "https://www.hopelink.org/programs/food-program/mobile-market/", null ], "Tuesday, Wednesday, Thursday", "8/7/2025" ]
+, [ "row-k9ua~f78r.ms78", "00000000-0000-0000-25C9-0FDABF292340", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Redmond Food Bank", "Open", "General Public", "8990 154th Ave NE, Redmond, WA 98052", "47.6818932", "-122.13423", "(425)-869-6000", [ "https://www.hopelink.org/programs/food-program/", null ], "Monday, Tuesday, Wednesday, Thursday", "8/7/2025" ]
+, [ "row-tgxe-3ime_2ssr", "00000000-0000-0000-40F4-18C131F5B615", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Shoreline Food Bank", "Open", "General Public", "17837 Aurora Ave N, Shoreline, WA 98133", "47.758995", "-122.3668098", "(206)-440-7300", [ "https://www.hopelink.org/need-help/food#collapseTen", null ], "Monday, Tuesday, Wednesday, Thursday", "7/28/2025" ]
+, [ "row-dcr9_jniy-9wsz", "00000000-0000-0000-83F0-5395B7AECCF2", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Sno-Valley Food Bank", "Open", "General Public", "31957 E Commercial St, Carnation, WA 98014", "47.6488697", "-121.912673", "(425)-333-4163", [ "https://www.hopelink.org/need-help/food#collapseTen", null ], "Monday, Wednesday, Thursday", "7/28/2025" ]
+, [ "row-cbfm_wgah-ajy3", "00000000-0000-0000-2618-5807E6172071", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "UW Bothell/Cascadia College", "Open", "General Public", "18115 Campus Way NE, Building CC2, Bothell, WA 98011", "47.7612687", "-122.1918002", "(425)-869-6000", [ "https://www.hopelink.org/programs/food-program/mobile-market/", null ], "Thursday", "7/22/2025" ]
+, [ "row-37kw_fuxy-jzxg", "00000000-0000-0000-010A-9929E4107746", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Woodinville Downtown", "Open", "General Public", "18105 142nd Ave NE, Woodinville, WA 98072", "47.758519", "-122.149842", "(425)-869-6000", [ "https://www.hopelink.org/programs/food-program/mobile-market/", null ], "Wednesday", "7/22/2025" ]
+, [ "row-yssv_zepc_jdag", "00000000-0000-0000-EB50-DD43D42FEA48", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Hopelink", "Woodinville Library", "Open", "General Public", "17105 Avondale Rd NE, Woodinville, WA 98072", "47.7515963", "-122.0819456", "(425)-869-6000", [ "https://www.hopelink.org/location/mobile-market", null ], "Tuesday", "8/12/2025" ]
+, [ "row-c4m3-xja4.j33m", "00000000-0000-0000-A23F-D11C739CDDB4", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Cedarvale Village", "Open", "Youth and Young Adults", "11050 8th Ave NE, Seattle, WA 98125", "47.710233", "-122.3201755", "(206)-538-6567", [ "https://www.hungerintervention.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/4/2025" ]
+, [ "row-emv6~pkju_suwm", "00000000-0000-0000-F1F1-894D50A3C393", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Afterschool Meal at Lake City Library", "Open", "Youth and Young Adults", "12501 28th Ave NE, Seattle, WA 98125", null, null, "(206)-538-6567", [ "https://hungerintervention.org/afterschool-meals/", null ], "Friday", "8/11/2025" ]
+, [ "row-txh4-4zfd-m5qg", "00000000-0000-0000-4BA7-4F8EC6D64B2A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Lake City Court", "Open", "Youth and Young Adults", "12526 33rd Ave NE, Seattle, WA 98125", "47.720291", "-122.291805", "(206)-538-6567", [ "https://www.hungerintervention.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-a4mv.tstx-bpms", "00000000-0000-0000-BF43-81CA6AE17F84", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Farmers Market at Lake City Community Center", "Open", "Youth and Young Adults", "12546 28th Ave NE, Seattle, WA 98125", "47.7197784", "-122.2975849", "(206)-538-6567", [ "https://www.hungerintervention.org/", null ], "Thursday", "8/9/2025" ]
+, [ "row-z7q6.5j2i-qiuy", "00000000-0000-0000-40E4-EB42F994D342", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Bella-B Mobile Park Home", "Open", "Youth and Young Adults", "1333 N 125th St, Seattle, WA 98133", "47.7191339", "-122.3410813", "(206)-538-6567", [ "https://www.hungerintervention.org", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/4/2025" ]
+, [ "row-bge9_mfxu_u7tp", "00000000-0000-0000-9B08-0808DEAE4E24", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Viv Apartments", "Open", "Youth and Young Adults", "14200 Linden Ave N, Seattle, WA 98133", null, null, "N/A", [ "https://www.hungerintervention.org", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/4/2025" ]
+, [ "row-3i8j~iwx8_63gw", "00000000-0000-0000-4712-B3F9B7D8952D", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Jackson Park Community Building", "Open", "Youth and Young Adults", "14374 30th Ave NE, Seattle, WA 98125", "47.733508", "-122.29595", "(206)-538-6567", [ "https://www.hungerintervention.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-hayv_yft3~skg5", "00000000-0000-0000-50BB-9AD35587D852", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Dale Turner YMCA", "Open", "Youth and Young Adults", "19290 Aurora Ave N, Shoreline, WA 98133", null, null, "N/A", [ "https://www.hungerintervention.org", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/4/2025" ]
+, [ "row-msf6~arnb_qmy9", "00000000-0000-0000-67FB-B8AB9207FFD9", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Ballinger Homes", "Open", "Youth and Young Adults", "2200 NE 201st Place, Shoreline, WA 98155", null, null, "N/A", [ "https://www.hungerintervention.org", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/4/2025" ]
+, [ "row-umyz~djue.rezj", "00000000-0000-0000-4CA6-949CB1C77802", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "KCLS Library (Shoreline Branch)", "Open", "Youth and Young Adults", "345 NE 175th St, Shoreline, WA 98155", "47.75572025", "-122.3248112", "(206)-538-6567", [ "https://www.hungerintervention.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-wqxb_335e~i5wh", "00000000-0000-0000-F9CE-A677A1E7C1D6", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "North City Elementary School", "Open", "Youth and Young Adults", "816 NE 190th St, Shoreline, WA 98155", "47.767272", "-122.3208429", "(206)-538-6567", [ "https://www.hungerintervention.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/4/2025" ]
+, [ "row-ukud_f23y-7egy", "00000000-0000-0000-88EE-71F50B62B234", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Immanuel Community Services", "Immanuel Community Services Food Bank and Community Lunch", "Open", "General Public", "1215 Thomas, Seattle, WA 98109", "47.6206572", "-122.3321098", "(206)-622-1930", [ "https://www.icsseattle.org/covid-19-info/", null ], "Sunday, Monday", "8/4/2025" ]
+, [ "row-sg2d~cvd9-aqug", "00000000-0000-0000-01FD-0EA5DD8ECBEE", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Issaquah Food and Clothing Bank", "Issaquah Food and Clothing Bank", "Open", "General Public", "179 1st Ave SE, Issaquah, WA 98027", "47.528687", "-122.0349549", "(425)-392-4123", [ "https://issaquahfoodbank.org/", null ], "Monday, Tuesday, Thursday", "8/4/2025" ]
+, [ "row-zexs~n32v_9fbb", "00000000-0000-0000-88C6-25F68AE05863", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Jewish Family Service", "Polack Food Bank", "Open", "General Public", "1601 16th Ave, Seattle, WA 98122", "47.6155896", "-122.3118419", "(206)-461-3240", [ "https://www.jfsseattle.org/get-help/polack-food-bank/", null ], "Wednesday, Thursday, Friday", "8/4/2025" ]
+, [ "row-5rwn~cnk6-764e", "00000000-0000-0000-CD08-A7F0A42323CA", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Kent Food Bank and Emergency Services", "Kent Food Bank", "Open", "General Public", "515 W Harrison St, Suite 107, Kent WA 98032", "47.3823817", "-122.2385989", "(253)-520-3550", [ "https://www.kentfoodbank.org/", null ], "Wednesday, Thursday, Friday", "2/1/2026" ]
+, [ "row-6yjq-svhg-vubs", "00000000-0000-0000-901C-431477DE80BE", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Kent Seventh Day Adventist Church", "Kent Seventh Day Adventist Church", "Open", "General Public", "25213 116th Ave SE, Kent, WA 98030", "47.3755391", "-122.1875964", "(253)-852-3883", [ "https://www.kentsda.org/", null ], "Saturday", "8/4/2025" ]
+, [ "row-k9v6~pnyp-7fgb", "00000000-0000-0000-FC50-124509A4893B", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Korean Women's Association", "Korean Meal Site", "Open", "Older Adults 60+ and Eligible Participants", "31635 23rd Ave S, Federal Way, WA 98003", "47.3180788", "-122.3043065", "(253)-946-2489", [ "https://www.kwacares.org/our-services/social-services/senior-wellness-programs/senior-congregate-nutrition-service-hdm/", null ], "Monday, Wednesday, Friday", "8/7/2025" ]
+, [ "row-dupm~7sbf~gnc5", "00000000-0000-0000-A4D0-3B14FAF75EDC", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Lifelong", "Chicken Soup Brigade", "Open", "Contact Agency for Any Eligibility Requirements", "210 S Lucile, Seattle , WA 98108", "47.3546154", "-122.1695967", "(206)-957-1600", [ "https://www.lifelong.org/chicken-soup-brigade", null ], null, "2/1/2026" ]
+, [ "row-r2q5_6buv~nfxi", "00000000-0000-0000-6573-1F89E7420A68", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Living Well Kent", "Kent", "Open", "General Public", "24604 104th Ave SE, Suite 102, Kent, WA 98030", "47.3813694", "-122.2015809", "(425)-466-7018", [ "https://livingwellkent.org/index.html", null ], "Monday, Wednesday", "8/12/2025" ]
+, [ "row-9rvs-y2ep.9sc2", "00000000-0000-0000-685E-B9AFB5A0C329", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Maple Valley Food Bank and Emergency Services", "Maple Valley Food Bank", "Open", "General Public", "21415 Renton-Maple Valley Rd SE, Maple Valley, WA 98038", "47.4093704", "-122.0395177", "(425)-432-8633", [ "https://www.maplevalleyfoodbank.org/programs/market-style-food-bank/senior-shop-day/", null ], "Tuesday, Wednesday", "8/7/2025" ]
+, [ "row-g4ai~3h3z~f5b5", "00000000-0000-0000-33E1-9385A4DC2F83", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Messiah Lutheran Church", "Auburn", "Open", "General Public", "410 H St NE, Auburn, WA 98002", "47.3116212", "-122.2190892", "(253)-833-5280", [ "https://www.mlcauburn.org/community", null ], "Sunday, Wednesday, Thursday", "8/4/2025" ]
+, [ "row-4anc-je2q_4bhx", "00000000-0000-0000-4EBD-C547D2645628", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Mt. Si Senior Center", "Mt. Si Senior Center", "Open", "Older Adults 50+ and Eligible Participants", "411 Main Ave S, North Bend, WA 98045", "47.4928162", "-121.7885425", "(425)-888-3434", [ "https://www.mtsiseniorcenter.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-jjpq~av6q-uwzq", "00000000-0000-0000-4D3A-4E026F2359AE", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Multicultural Self-Sufficiency Movement", "Evergreen Senior Club - Federal Way Community Center", "Open", "Older Adults 60+ and Eligible Participants", "30819 14th Ave S, Federal Way, WA 98003", "47.3256699", "-122.3164786", "(253)-835-6900", [ "https://itallhappenshere.org/seniors/", null ], "Wednesday", "8/7/2025" ]
+, [ "row-bi7m_k5yq-mxe9", "00000000-0000-0000-1101-E87DDC773D06", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Musang Community Kitchen", "Musang Community Kitchen", "Open", "General Public", "2524 Beacon Ave S, Seattle, WA 98144", "47.5803727", "-122.3127166", "(206)-708-6871", [ "https://www.musangseattle.com/community-kitchen", null ], "Monday, Tuesday", "8/4/2025" ]
+, [ "row-g2c3~syhy-3nwk", "00000000-0000-0000-F421-C953135B3632", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "New Beginnings Christian Fellowship", "New Beginnings Christian Fellowship", "Open", "General Public", "19300 108th Ave SE, Kent, WA 98031", "47.428904", "-122.1954886", "(425)-282-6220", [ "https://thenbcf.org/", null ], "Saturday", "8/12/2025" ]
+, [ "row-nzky-rk6f~4y7r", "00000000-0000-0000-5423-C078CD72C13E", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "North Helpline", "Bitter Lake Food Bank", "Open", "General Public", "13000 Linden Ave N, Seattle, WA 98125", "47.7242235", "-122.3472592", "(206)-367-3477", [ "https://www.northhelpline.org/get-help/bitter-lake/", null ], "Saturday", "8/4/2025" ]
+, [ "row-mhde_9p2p~g3rc", "00000000-0000-0000-1AED-C3F511408CF4", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "North Helpline", "Lake City Food Bank", "Open", "General Public", "12736 33rd Ave NE, Seattle, WA 98125", "47.7223248", "-122.2918447", "(206)-367-3477", [ "https://www.northhelpline.org/get-help/food-bank/", null ], "Wednesday, Thursday, Saturday", "8/12/2025" ]
+, [ "row-vfdw~ucus_n2tu", "00000000-0000-0000-75EE-9CA4ED55F186", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Northwest Harvest", "SODO Community Market", "Open", "General Public", "1915 4th Ave S, Seattle, WA 98134", "47.5855714", "-122.3295651", "(800)-722-6924", [ "https://www.northwestharvest.org/sodo-community-market?gclid=CjwKCAjwguzzBRBiEiwAgU0FT2oeYOjgOqT-nfdpq8cCoSR-ynhQyJnFA4Xuzmhtt749Xzpz19jAZRoCaTUQAvD_BwE", null ], "Monday, Wednesday, Friday", "8/4/2025" ]
+, [ "row-sppb-ke8e.efa5", "00000000-0000-0000-A939-478608B91816", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Northwest Harvest/World Relief", "Hillside Church", "Open", "General Public", "930 E James St, Kent, WA 98031", "47.3861959", "-122.2218815", "(253)-852-5144", [ "https://hillsidechurch.squarespace.com/local-1", null ], null, "8/13/2025" ]
+, [ "row-qdph.h66x~ua8f", "00000000-0000-0000-FCE3-CC9DB8DE3E5A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Northwest SHARE", "University Heights Center", "Open", "General Public", "5031 University Way NE, Seattle, WA 98105", "47.666133", "-122.3137458", "(206)-527-4278", [ "https://www.uheightscenter.org/coronavirus", null ], "Sunday, Wednesday, Friday, Saturday", "8/4/2025" ]
+, [ "row-k676~nfky~bxn6", "00000000-0000-0000-AA9A-79B255DE0854", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Operation Nightwatch", "Operation Nightwatch Shelter Dispatch Center", "Open", "General Public", "302 14th Ave S, Seattle, WA 98144", "47.5998571", "-122.3137564", "(206)-329-2099", [ "https://www.seattlenightwatch.org/what-we-do/food-and-shelter/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/4/2025" ]
+, [ "row-8733~ijbs.uem8", "00000000-0000-0000-26C8-A62B880C0EA9", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Operation Sack Lunch, Inc.", "Compass Housing", "Open", "General Public", "210 Alaskan Way S, Seattle, WA 98104", "47.60104542", "-122.3353162", "(206)-347-6629", [ "https://www.oslserves.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/12/2025" ]
+, [ "row-j762_brqy_5uq3", "00000000-0000-0000-CA6C-6B6BC6545A0B", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Overcomer Covenant Church", "Overcomer Food Bank", "Open", "General Public", "2808 S 354th Ln, Federal Way, WA 98003", "47.28432", "-122.29698", "(253)-874-4038", [ "https://overcomercc.org/missions-outreach", null ], null, "8/4/2025" ]
+, [ "row-iw9t~qjb6-mdj9", "00000000-0000-0000-6995-AC8EE5C04507", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Paradise of Praise", "Food Bank", "Open", "General Public", "1316 SW Holden St, Seattle, WA 98106", "47.5344477", "-122.3524692", "(206)-234-2713", [ "https://www.seattlefoodcommittee.org/food_bank/paradise-of-praise/", null ], "Tuesday", "8/4/2025" ]
+, [ "row-nm7t.aenk~fy7m", "00000000-0000-0000-C449-CD2B43B54199", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Hunger Intervention Program - Lake City Community Center", "Open", "Older Adults 60+ and Eligible Participants", "12531 28th Ave NE, Seattle, WA 98125", "47.7203524", "-122.2981048", "(206)-707-1865", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Monday, Wednesday, Friday", "8/5/2025" ]
+, [ "row-8kxa_s7jn~ivgf", "00000000-0000-0000-863E-12F35D2DFE61", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "St. Martin's On Westlake", "St. Martin's On Westlake", "Open", "Contact Agency for Any Eligibility Requirements", "2008 Westlake Ave, Seattle, WA 98121", "47.6155497", "-122.3375982", "(206)-340-0410", [ "https://ccsww.org/services/permanent-housing/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "2/5/2026" ]
+, [ "row-2hir.8hph-xhg3", "00000000-0000-0000-C318-DEA34A5C5457", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Phinney Ridge Lutheran Church", "Phinney Ridge Food Bank", "Open", "General Public", "7500 Greenwood Ave N, Seattle, WA 98103", "47.6835063", "-122.3547797", "(206)-783-2350", [ "https://prlc.org/phinney-ridge-lutheran-church-food-bank", null ], "Tuesday, Wednesday", "8/4/2025" ]
+, [ "row-q4gr~gkpu_3xri", "00000000-0000-0000-92C3-1586FAF6BADB", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Pike Market Senior Center", "Pike Market Senior Center", "Open", "Contact Agency for Any Eligibility Requirements", "1531 Western Ave, Seattle, WA 98101", "47.608886", "-122.342051", "(206)-728-2773", [ "https://www.pmsc-fb.org/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/4/2025" ]
+, [ "row-ub7p_bxzq-ab5m", "00000000-0000-0000-A783-86C8B2627F59", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Pike Market Senior Center", "Pike Market Senior Center", "Open", "Older Adults 55+ and Eligible Participants", "85 Pike St, Seattle, WA 98101", "47.6084268", "-122.3405616", "(206)-728-2773", [ "https://www.pmsc-fb.org/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/4/2025" ]
+, [ "row-azvj-3g97~gaip", "00000000-0000-0000-2AD2-A41305548DA7", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Plant Based Food Share", "Central Seattle", "Open", "Contact Agency for Any Eligibility Requirements", "7148 Martin Luther King Jr Way S, Seattle, WA 98118", "47.5374953", "-122.2809353", "(971)-245-2907?", [ "https://www.plantbasedfoodshare.org", null ], "Sunday, Monday", "8/12/2025" ]
+, [ "row-spuf.djrr.mt87", "00000000-0000-0000-AD39-DB9CC20C1303", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Federal Way Community Caregiving Network", "Church of the Good Shepherd Church", "Open", "General Public", "345 S 312th St, Federal Way, WA 98003", "47.3221136", "-122.330177", "(253)-661-0505", [ "https://www.fwccn.org/services.html", null ], "Saturday", "8/12/2025" ]
+, [ "row-pewy~6ycc.a66k", "00000000-0000-0000-D9CB-8C936D86BB74", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Prison Scholar Fund", "Prison Scholar Fund", "Open", "Contact Agency for Any Eligibility Requirements", "1752 NW Market St, #953, Seattle, WA 98107", "47.669121", "-122.381152", "(206)-734-5425", [ "https://www.prisonscholars.org/food-security/", null ], "Thursday, Friday", "8/12/2025" ]
+, [ "row-59xq-4vri-92jx", "00000000-0000-0000-6347-0E92D430C618", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Puget Sound Labor Agency", "Puget Sound Labor Agency Food Bank", "Open", "General Public", "5300 4th Ave South, Seattle, WA 98108", "47.5546964", "-122.3291893", "(206)-448-9277", [ "https://www.pugetsoundlaboragency.org/food-bank.html", null ], "Monday, Wednesday", "8/12/2025" ]
+, [ "row-sygr.kvq4-8ind", "00000000-0000-0000-D771-87BD24AE8132", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Preston Food Bank", "Raging River Community Church", "Open", "General Public", "31104 SE 86th St, Preston, WA 98050", "47.5236596", "-121.926249", "(425)-222-5573", [ "https://r2c2blog.wordpress.com/ministry/foodbank/", null ], "Thursday", "8/7/2025" ]
+, [ "row-jnci.dr7x.zike", "00000000-0000-0000-C691-98F02ACAB1E5", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Rainier Valley Food Bank", "Paradise Baptist Church", "Open", "General Public", "4353 S Henderson St, Seattle, WA 98118", null, null, "N/A", [ "https://www.rvfb.org/grocery-mobile-markets", null ], "Wednesday, Friday", "8/5/2025" ]
+, [ "row-dnwb_jjpq.kqyn", "00000000-0000-0000-8DDA-2848800599E0", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Rainier Valley Food Bank", "Odessa Brown - Othello", "Open", "Odessa Brown Childrens Clinic Patient Families", "3939 S Othello St,  Suite 101, Seattle, WA 98118", null, null, "N/A", [ "https://www.rvfb.org/grocery-mobile-markets", null ], "Wednesday", "8/5/2025" ]
+, [ "row-5g43~frt5.qpje", "00000000-0000-0000-668D-DB776A884721", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Ravenna PopUp Kitchen", "Ravenna PopUp Kitchen", "Open", "General Public", "65th and 8th Ave NE, Seattle, WA 98115 (under the I5 overpass)", "47.675803", "-122.320245", "N/A", [ "https://www.facebook.com/pages/category/Community/Ravenna-PopUp-Kitchen-498542463880219/", null ], "Sunday", "8/12/2025" ]
+, [ "row-ubh3~9cwd~bx6m", "00000000-0000-0000-FF8B-CA5E98171A58", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "REACH Meal Coalition", "REACH Meal Coalition", "Open", "General Public", "419 S 2nd St, Suite 1, Renton, WA 98057", "47.4873486", "-122.217794", "(425)-277-7582", [ "https://reachrenton.org/rmc-the-table-a-free-community-meal", null ], "Saturday", "8/12/2025" ]
+, [ "row-a6x8~bn5t~trta", "00000000-0000-0000-30A8-63FCF0D49E37", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Recovery Caf�", "Recovery Caf� SODO", "Open", "Contact Agency for Any Eligibility Requirements", "4202 6th Ave S, Seattle, WA 98108", null, null, "(206)-333-2314", [ "https://recoverycafe.org/recovery-cafe-sodo/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/12/2025" ]
+, [ "row-md5e-2hy3-8ebn", "00000000-0000-0000-8E12-1F911C789BD2", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Recovery Caf�", "South Lake Union", "Open", "Contact Agency for Any Eligibility Requirements", "2022 Boren Ave, Seattle, WA 98121", "47.618348", "-122.3346308", "(206)-374-8731", [ "https://www.recoverycafe.org/", null ], "Tuesday, Wednesday, Thursday, Friday, Saturday", "8/4/2025" ]
+, [ "row-9ma3_qnsc.wmxq", "00000000-0000-0000-3A96-E4EA9CF71FEF", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Redmond UMC", "Open Kitchen", "Open", "General Public", "16540 NE 80th St, Redmond, WA 98052", "47.675118", "-122.120025", "(425)-883-7553", [ "https://redmondumc.org/ministries/open-kitchen", null ], "Wednesday", "8/4/2025" ]
+, [ "row-fq2a.66v7-m9cb", "00000000-0000-0000-A879-ED579619CA9F", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Renewal Food Bank", "Highland Covenant Church", "Open", "General Public", "15022 Bel-Red Rd, Bellevue, WA 98007", "47.6275862", "-122.1394748", "(425)-736-8132", [ "https://renewalfoodbank.org/", null ], "Monday, Tuesday, Wednesday", "8/7/2025" ]
+, [ "row-9wgs_xhje-miur", "00000000-0000-0000-800F-62B4A94602A7", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "ROOTS", "Friday Feast", "Open", "General Public", "4130 University Way NE, Seattle, WA 98105", "47.6592588", "-122.3124319", "(206)-632-1635", [ "https://www.rootsinfo.org/", null ], "Friday", "8/12/2025" ]
+, [ "row-qjne-uyms~xif7", "00000000-0000-0000-2ABD-CD35C8FD931F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Roots Young Adult Shelter", "Roots Young Adult Shelter", "Open", "General Public", "4541 19th Ave NE, Seattle, WA 98105", "47.6624222", "-122.3076074", "(206)-632-1635", [ "https://www.rootsinfo.org/friday-feast-volunteer", null ], "Friday", "2/1/2026" ]
+, [ "row-f5yy~6gyd-gj2c", "00000000-0000-0000-7194-D64105EEDD5F", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Sacred Heart Church/SVDP Society", "Queen Anne Food Bank and Meals", "Open", "General Public", "232 Warren Ave N, Suite B, Seattle, WA 98109", "47.6206989", "-122.3537259", "(206)-216-4102", [ "https://www.sacredheartseattle.org/qafb", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/2/2025" ]
+, [ "row-97g6.ndnm.r2ef", "00000000-0000-0000-D29E-4EDB7CB5C918", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Salvation Army", "Salvation Army Renton/Rotary Food Bank", "Open", "General Public", "206 S Tobin St, Renton,  WA 98057", "47.4842805", "-122.2140148", "(425)-255-5969", [ "https://webmanager.salvationarmy.org/renton_corps/food-bank?random=492", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-6pjx~nz9z-qyaw", "00000000-0000-0000-53E7-41993B7F0E6A", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Salvation Army", "Salvation Army White Center", "Open", "Food Bank: General Public \nMeals: Older Adults 60+ and Eligible Participants", "9050 16th Ave SW, Seattle, WA 98106", "47.5215741", "-122.3547065", "(206)-767-3150", [ "https://tsawhitecenter.org/SeattleWhiteCenter/help", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-fc29-38e7-q7xg", "00000000-0000-0000-F7AA-D027F1FABC05", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Salvation Army of Renton Community Supper", "The Salvation Army Renton Corps Community Center", "Open", "General Public", "720 S Tobin St, Renton, WA 98057", "47.4839337", "-122.2072343", "(425)-255-5974", [ "https://renton.salvationarmy.org/renton_corps/renton-food-bank/", null ], "Monday, Tuesday, Wednesday, Thursday", "8/7/2025" ]
+, [ "row-ipeg-m5a4-e86s", "00000000-0000-0000-0A94-C5F29E4F7583", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Seattle Indian Center", "Emergency Meals and Food Bank", "Open", "General Public", "624 S Dearborn St, Seattle, WA 98134", "47.5959979", "-122.3254326", "(206)-329-8700", [ "https://www.seattleindian.org/services/food-security-programs/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-pb9x~bksj-ikv9", "00000000-0000-0000-8DAA-3F61B1AAC577", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Snoqualmie Valley Food Bank", "Snoqualmie Valley Food Bank", "Open", "General Public", "122 E 3rd St, North Bend, WA 98045", "47.4962806", "-121.783458", "(425)-888-7832", [ "https://www.snoqualmievalleyfoodbank.org/", null ], "Tuesday, Wednesday, Thursday", "8/12/2025" ]
+, [ "row-ehwy-2ydr-g4jf", "00000000-0000-0000-8EEF-76A3079D0A92", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Snoqualmie Valley Shelter Resource Center", "American Legion Post", "Open", "Contact Agency for Any Eligibility Requirements", "38625 SE River St, Snoqualmie, WA 98065", "47.5266927", "-121.8255624", "(425)-773-2874", [ "https://www.svshelterservices.org/resource-center.html", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday", "8/5/2025" ]
+, [ "row-txdt_mrgn.wmi8", "00000000-0000-0000-4A9B-838B5B33F1AC", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Society of St Vincent de Paul Council", "Georgetown Food Bank", "Open", "General Public", "5972 4th Ave S, Seattle, WA 98108", "47.5486194", "-122.3291318", "(206)-686-5260", [ "https://www.svdpseattle.org/get-help/food-bank/", null ], "Tuesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-6phk.6uee_886g", "00000000-0000-0000-CB9A-4B075E8A93DC", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Auburn Senior Activity Center", "Open", "Older Adults 60+ and Eligible Participants", "808 9th St SE, Auburn, WA 98002", "47.30001724", "-122.2179889", "(253)-931-3016", [ "https://www.auburnwa.gov/city_hall/parks_arts_recreation/senior_activity_center/senior_health", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-vuad_bhhy-udjj", "00000000-0000-0000-271F-D75EC0AEAFEA", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "American Polynesian Organization and International Drop-In Center", "Open", "Older Adults 60+ and Eligible Participants", "7301 Beacon Ave, Seattle, WA 98108", "47.5364556", "-122.2934033", "(206)-606-0916", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Tuesday", "8/5/2025" ]
+, [ "row-kiqh-42eu_9udp", "00000000-0000-0000-257E-12FCC65B85C8", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Ballard NW Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "5429 32nd NW, Seattle, WA 98017", "47.6684176", "-122.3987072", "(206)-297-0403", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-qpzm-zg5e~d6cj", "00000000-0000-0000-CA07-C2539B942239", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Central Area Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "500 30th Ave S, Seattle, WA 98144", "47.597467", "-122.2932771", "(206)-726-4926", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-m4e4~x8yi.5fmw", "00000000-0000-0000-1FCC-BF08609D2E43", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Rainier Valley Food Bank", "Rainier Valley Food Bank", "Open", "General Public", "4205 Rainier Ave S, Seattle, WA 98118", "47.5653236", "-122.2889468", "(206)-723-4105", [ "https://www.rvfb.org/", null ], "Wednesday, Friday", "8/20/2025" ]
+, [ "row-5fae_nmtt~ts7k", "00000000-0000-0000-3B97-15DA0078D214", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "First Tongan Senior Association", "Open", "Older Adults 60+ and Eligible Participants", "9001 9th Ave SW, Seattle, WA 98106", "47.5225031", "-122.3471612", "(206)-727-6248", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Wednesday", "8/7/2025" ]
+, [ "row-7f4b.miib-fkqx", "00000000-0000-0000-D9DD-E468ED615D63", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Greenwood Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "525 N 85th St, Seattle, WA 98103", "47.6904002", "-122.3509931", "(206)-297-0875", [ "https://www.phinneycenter.org/seniors/gsc/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-y4qp~gmcw_bndj", "00000000-0000-0000-4640-56AD982C479D", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Teen Feed", "University Congregational Church", "Open", "Youth and Young Adults", "4515 16th Ave NE, Seattle, WA 98105", "47.6617835", "-122.3111496", "(206)-229-0813", [ "https://www.teenfeed.org/programs/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/12/2025" ]
+, [ "row-544y.vang-jcry", "00000000-0000-0000-491C-1581610C2583", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Kawabe Memorial House", "Open", "Older Adults 60+ and Eligible Participants", "221 18th Ave S, Seattle, WA 98144", "47.6003875", "-122.3092827", "(206)-322-4550", [ "https://kawabehouse.org/meiji-kai-menu/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-pwii_h2wa_cvvp", "00000000-0000-0000-76DA-4D9EE19CADBC", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Sound Generations", "Northshore Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "10201 E Riverside Dr, Bothell, WA 98011", "47.7560448", "-122.2026247", "(425)-487-2441", [ "https://www.northshoreseniorcenter.org/programs-services/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-jtsw-mexr.kyqc", "00000000-0000-0000-4CFD-21A5BA3F0E08", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Renton Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "211 Burnett Ave N, Renton, WA 98057", "47.4861262", "-122.2077373", "(425)-430-6633", [ "https://www.rentonwa.gov/cms/one.aspx?pageId=8715840", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-hsta~kj4p~qshb", "00000000-0000-0000-C25F-B3A7CB9941AF", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Shoreline Lake Forest Park Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "18560 1st Ave NE, Bldg G, Shoreline, WA 98155", "47.7654839", "-122.3280209", "(206)-365-1536", [ "https://www.shorelinelfpseniorcenter.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-xwgg.3qh3-h7d2", "00000000-0000-0000-EB59-5D925FDF558F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Sno-Valley Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "4610 Stephens Ave, Carnation, WA 98014", "47.6488782", "-121.914727", "(425)-333-4152", [ "https://www.snovalleysenior.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-ia7y_exij-senk", "00000000-0000-0000-12CB-9822A332BC83", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "Southeast Seattle Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "4655 S Holly St, Seattle, WA 98118", "47.5422737", "-122.2729875", "(206)-727-6248", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-3cpx_wpum~rczi", "00000000-0000-0000-8A7F-EC24ED8840EE", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Sound Generations", "West Seattle Senior Center", "Open", "Older Adults 60+ and Eligible Participants", "4217 SW Oregon St, Seattle, WA 98116", "47.5626975", "-122.3864553", "(206)-932-4044", [ "https://sc-ws.org/services/food-and-dining/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-vrt2-eskv-jxk2", "00000000-0000-0000-9B2C-BC8A610784CD", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations & SPS", "Northgate Community Center", "Open", "Contact Agency for Any Eligibility Requirements", "10510 5th Ave NE, Seattle, WA 98125", "47.7054887", "-122.3221733", "(206)-538-6567", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Tuesday", "8/5/2025" ]
+, [ "row-ntt9_hevx_qidv", "00000000-0000-0000-BC8D-B4E2EFE4542C", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations & SPS", "Yesler Community Center", "Open", "Older Adults 60+ and Eligible Participants", "917 E Yesler Way, Seattle, WA 98122", "47.60151", "-122.3202219", "(206)-227-8659", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Monday, Thursday", "8/5/2025" ]
+, [ "row-ace8~6wrs~txmf", "00000000-0000-0000-A155-B93DD42FBF7F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "YMCA of Greater Seattle - University Family", "YMCA of Greater Seattle - University Family", "Open", "Contact Agency for Any Eligibility Requirements", "5003 12th Ave NE, Seattle, WA 98105", "47.6653128", "-122.3155223", "(206)-524-1400", [ "https://www.ymca.org/what-we-do/youth-development/food-programs/summer", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-gq4h~j8v3_4deb", "00000000-0000-0000-D718-79AB1D1E29CC", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Edible Hope Kitchen", "St Paul's United Church of Christ", "Open", "General Public", "6512 12th Ave NW, Seattle, WA 98107", "47.6704508", "-122.3870101", "(206)-784-3119", [ "https://www.ediblehopekitchen.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "2/1/2026" ]
+, [ "row-puhv.3q2h_wztk", "00000000-0000-0000-3A73-6CFB1DDCBA25", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "St. Stephen the Martyr Catholic Church", "Food Bank", "Open", "Contact Agency for Any Eligibility Requirements", "13055 SE 192nd St, Renton, WA 98058", "47.4292298", "-122.1662234", "(253)-631-1940", [ "https://www.ststephenslife.com/food-bank", null ], "Monday, Wednesday, Friday", "8/12/2025" ]
+, [ "row-72dq_6kyw_4qve", "00000000-0000-0000-D87C-3DCBFB9D8D1A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "East African Senior Program (RBUFW)", "Open", "Older Adults 60+ and Eligible Participants", "5513 S Cloverdale St, Seattle, WA 98118", "47.5261434", "-122.2624573", "(206)-227-8659", [ "https://www.soundgenerations.org/our-programs/food-security/community-dining/", null ], "Tuesday, Friday", "8/5/2025" ]
+, [ "row-a3m8~g7jx~w885", "00000000-0000-0000-FED8-011E1E731606", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "The Food Bank @ St. Mary's", "The Food Bank @ St. Mary's", "Open", "General Public", "611 20th Ave S, Seattle, WA 98144", "47.5972377", "-122.3065791", "(206)-324-7215", [ "https://www.thefbsm.org/services", null ], "Monday, Wednesday, Friday", "8/7/2025" ]
+, [ "row-ffkc-847d.3mky", "00000000-0000-0000-0114-5F1106A35690", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "The Interfaith Council to Prevent Homelessness (IFCH) Community Meals", "Vashon Methodist Church", "Open", "Contact Agency for Any Eligibility Requirements", "17928 Vashon Hwy SW, Vashon, WA, 98070", "47.444043", "-122.4602001", "(206)-643-5169", [ "https://ifchvashon.org/", null ], "Monday, Tuesday, Wednesday", "8/12/2025" ]
+, [ "row-pduj.3trh.mwpy", "00000000-0000-0000-1C16-33DAA4387698", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "The Storehouse, Covington Food Bank", "Real Life Church", "Open", "General Public", "26201 180th Ave SE, Covington, WA 98042", "47.3662588", "-122.1027806", "(253)-631-3038", [ "https://covingtonstorehouse.org/assistance", null ], "Monday, Friday, Saturday", "8/5/2025" ]
+, [ "row-2b8f.gths.b72t", "00000000-0000-0000-769C-2257FD6079B4", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Tilth  Alliance Market Program", "South Seattle  - Rainier Beach", "Open", "General Public", "5513 S Cloverdale St, Seattle, WA 98118", "47.5261434", "-122.2624573", "(206)-633-0451", [ "https://tilthalliance.square.site/", null ], "Thursday", "8/7/2025" ]
+, [ "row-jydt-yjdi_uevq", "00000000-0000-0000-A5FB-7913C00F184A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Tolt Congregational United Church of Christ", "Tolt Congregational United Church of Christ", "Open", "General Public", "4851 Tolt Ave, Carnation, WA 98014", "47.6505667", "-121.9128635", "(425)-333-4254", [ "https://toltucc.org/", null ], "Wednesday", "8/12/2025" ]
+, [ "row-vh6q_vbs6_dmpk", "00000000-0000-0000-6559-441B2AA5015A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Trinity Community Church", "Hungry Soul Cafe", "Open", "General Public", "3807 Reith Rd, Kent, WA 98032", "47.3692477", "-122.2844903", "(253)-852-1044", [ "https://www.facebook.com/JesusatTrinity/", null ], "Wednesday", "8/5/2025" ]
+, [ "row-3ht5~jj6f_eh2z", "00000000-0000-0000-FA88-7F08BD3E63BC", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Tukwila Pantry", "Riverton Park United Methodist Church", "Open", "General Public", "3118 S 140th St, Tukwila, Washington 98168, United States", "47.4784931", "-122.2924379", "(206)-431-8293", [ "https://tukwilapantry.org/", null ], "Tuesday, Thursday, Saturday", "8/7/2025" ]
+, [ "row-9qzd_yuzy~3aeg", "00000000-0000-0000-9705-F1E181A0BFB1", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Ukrainian Community Center", "Iraqi Community Center of Washington", "Open", "General Public", "11010 SE 248th St, Kent, WA 98030", "47.3811974", "-122.1937157", "(253)-243-7744", [ "https://uccwa.org/", null ], null, "8/5/2025" ]
+, [ "row-btmv.2wd3.ayme", "00000000-0000-0000-DDBF-154E61C4FAAD", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Ukrainian Community Center", "Ukrainian Community Center of WA - Federal Way", "Open", "Older Adults 60+ and Eligible Participants", "1430 S 330th St, Federal Way, WA 98003", "47.3067079", "-122.3154071", "(425)-430-8229", [ "https://uccwa.org/", null ], "Thursday", "8/5/2025" ]
+, [ "row-a6zj~8nga~ukhw", "00000000-0000-0000-FBAA-9205F2FD876A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Ukrainian Community Center", "Ukrainian Community Center of WA - Seattle", "Open", "Older Adults 60+ and Eligible Participants", "13470 Martin Luther King Jr Way S, #5210, Seattle, WA 98178", "47.7240367", "-122.3486525", "(425)-430-8229", [ "https://uccwa.org/", null ], "Tuesday", "8/5/2025" ]
+, [ "row-57rs_j8rp~jm46", "00000000-0000-0000-7E22-B00E9ADEDB8C", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "United Indians of All Tribes Foundation (UIATF)", "UIATF Labatyeh Youth Home", "Open", "Older Adults 60+ and Eligible Participants", "9010 13th Ave NW, Seattle, WA 98117", "47.6946156", "-122.3723726", "(206)-285-4425", [ "https://www.unitedindians.org/", null ], "Wednesday", "8/12/2025" ]
+, [ "row-ptzg.3d2d~2wrq", "00000000-0000-0000-EB3B-276EC21C8A6D", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "University District Service League", "Magnuson Park Community Food Pantry", "Open", "General Public", "7101  62nd Ave NE, Seattle, WA 98115", "47.6805765", "-122.262898", "(206)-523-7060", [ "https://www.udistrictfoodbank.org/services/magnuson-park-community-food-pantry/", null ], "Wednesday", "8/5/2025" ]
+, [ "row-i4b2.z63e_fjgc", "00000000-0000-0000-5092-EB4F50331A97", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "University District Service League", "University District Food Bank", "Open", "General Public", "5017 Roosevelt Way NE, Seattle, WA 98105", "47.6655387", "-122.3178395", "(206)-523-7060", [ "https://www.udistrictfoodbank.org/services/", null ], "Monday, Tuesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-66gp~hbbk~kcyq", "00000000-0000-0000-FB9D-60953709613A", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Urban Fresh Food Collective of South Park", "Duwamish River Community Hub", "Open", "General Public", "8600 14th Ave S, Seattle, WA 98108", null, null, "N/A", null, "Tuesday", "8/5/2025" ]
+, [ "row-xzp5.2497_d2wc", "00000000-0000-0000-6561-42DC0AFEDB17", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Urban Fresh Food Collective of South Park", "Duwamish Waterway Park", "Open", "General Public", "7900 10th Ave SW, Seattle, WA 98106", "47.5317619", "-122.3478091", "N/A", [ "https://cultivatesouthpark.org/mercadito", null ], "Saturday", "8/5/2025" ]
+, [ "row-and8-umpb.antp", "00000000-0000-0000-FCE0-246D4942C25A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Urban Fresh Food Collective of South Park", "South Park Community Center", "Open", "General Public", "8319 8th Ave S, Seattle, WA 98108", "47.5284221", "-122.3240431", "(206)-809-9691", [ "https://www.urbanfreshfoodcollective.org/covid19", null ], "Monday, Wednesday, Thursday", "8/5/2025" ]
+, [ "row-mrev~gxcn~jtxg", "00000000-0000-0000-896A-A3C04ACC74B2", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Vashon Maury Community Food Bank", "Vashon Maury Community Food Bank", "Open", "General Public", "10030 SW 210th St, #4, Vashon, WA 98070", "47.4185981", "-122.4664519", "(206)-463-6332", [ "https://www.vashonfoodbank.org/", null ], "Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-smng-x35z~hmtk", "00000000-0000-0000-6D12-7081155EFD81", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Vashon Maury Community Food Bank", "Vashon Maury Community Food Bank", "Open", "Youth and Young Adults", "17130 Vashon Hwy SW #1608, Vashon, WA 98070", "47.4007316", "-122.4688031", "(206)-463-6332", [ "https://www.vashonfoodbank.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "2/1/2025" ]
+, [ "row-8mf9.pxuu-xybu", "00000000-0000-0000-DCD5-252AF14CE1E9", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Victory Outreach Seattle", "Victory Outreach Seattle", "Open", "Contact Agency for Any Eligibility Requirements", "824 108th St SW, Seattle, WA  98146", "47.5068483", "-122.3456315", "(206)-244-8184", [ "https://www.voseattle.com/ministries/", null ], null, "8/5/2025" ]
+, [ "row-8zb3.zhs4_tcib", "00000000-0000-0000-A4FB-E3C22EB97B73", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "West Seattle Food Bank", "West Seattle Food Bank", "Open", "General Public", "3419 SW Morgan St, Seattle, WA 98126", "47.5444292", "-122.3758291", "(206)-932-9023", [ "https://www.westseattlefoodbank.org/", null ], "Tuesday, Wednesday, Thursday, Friday", "8/5/2025" ]
+, [ "row-k5uv-8sif.kks2", "00000000-0000-0000-9F40-4398B291539B", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "White Center Food Bank", "White Center Food Bank", "Open", "General Public", "10016 16th Ave SW, Seattle, WA 98146", "47.5131743", "-122.3548275", "(206)-762-2848", [ "https://www.whitecenterfoodbank.org/service-hours", null ], "Monday, Wednesday, Thursday, Friday", "8/7/2025" ]
+, [ "row-xg3p~54sc.96h5", "00000000-0000-0000-9890-BFD104715D0F", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Woodinville Store House", "Woodinville Store House", "Open", "General Public", "17110 140th Ave NE, Woodinville, WA 98072", "47.7520872", "-122.1518646", "(425)-384-9274", [ "https://www.woodinvillestorehouse.org", null ], "Tuesday, Saturday", "8/5/2025" ]
+, [ "row-tpum~c9u8-cwu2", "00000000-0000-0000-638B-55D5BD98A682", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Phinney Neighborhood Association", "St. John United Lutheran Church", "Open", "General Public", "5515 Phinney Ave N, Seattle, WA 98103", null, null, "(206)-783-2244", [ "https://www.phinneycenter.org/hotmeal/", null ], "Monday, Tuesday, Wednesday", "8/12/2025" ]
+, [ "row-6nyb_hmmc~7627", "00000000-0000-0000-7617-A663C78EEB5A", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "YouthCare", "Orion Center", "Open", "Youth and Young Adults", "1828 Yale Ave, Seattle, WA 98101", "47.6182683", "-122.3305192", "(206)-622-5555", [ "https://www.youthcare.org/homeless-youth-services/engagement-services/youthcares-orion-center/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "8/7/2025" ]
+, [ "row-5v5k.sgdc-i94j", "00000000-0000-0000-7D0B-0C511FB8CDA2", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "YouthCare", "U-District Youth Center", "Open", "Youth and Young Adults", "4516 15th Ave NE, Seattle, WA 98105", "47.661853", "-122.311609", "(206)-622-5555", [ "https://www.youthcare.org/get-help/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday", "8/12/2025" ]
+, [ "row-nz36.esj9~tac3", "00000000-0000-0000-6523-46E808EF56F8", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "YWCA", "Central Area Food Bank", "Open", "General Public", "2820 E Cherry St, Seattle, WA 98122", "47.608328", "-122.2958409", "(206)-375-1496", [ "https://www.ywcaworks.org/programs/central-area-food-bank", null ], "Wednesday", "8/5/2025" ]
+, [ "row-qptz-698w-3urc", "00000000-0000-0000-5861-849E68EF9765", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Cultivate South Park", "Cultivate South Park", "Open", "General Public", "614 S Riverside Drive, Seattle, WA 98108", "47.5350237", "-122.3263116", "N/A", [ "https://www.cultivatesouthpark.org", null ], "Tuesday, Friday", "11/5/2025" ]
+, [ "row-qxav.28d2~cmrf", "00000000-0000-0000-3F80-8066A6937797", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Vashon Maury Community Food Bank", "Vashon Maury Community Food Bank", "Open", "Youth and Young Adults", "10500 SW 228th St, Vashon, WA 98070", "47.4007749", "-122.4688823", "(206)-463-6332", [ "https://www.vashonfoodbank.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "2/1/2025" ]
+, [ "row-5ibb.cpi7~9k4t", "00000000-0000-0000-EB77-DC143F2714E4", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Vashon Senior Center", "Vashon Senior Center", "Open", "Older Adults 55+ Who Have Requested Meals", "10004 SW Bank Rd, Vashon, WA 98070", "47.4475822", "-122.4620178", "(206)-463-5173", [ "https://www.vashoncenter.org/lunch-delivery", null ], "Monday, Wednesday, Friday", "8/5/2025" ]
+, [ "row-ve5j_bck6.75hg", "00000000-0000-0000-5A89-5CB24273F409", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Kent Food Bank and Emergency Services", "Birch Creek Apartment", "Open", "General Public", "27360 129th Place S., Kent, WA 98030", "47.3546154", "-122.1695967", "(253)-520-3550", [ "https://www.kentfoodbank.org/", null ], "Monday", "2/1/2026" ]
+, [ "row-4qz9~usei.n74s", "00000000-0000-0000-FDC9-A22336B9C126", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Alimentando al Pueblo", "Alimentando al Pueblo", "Open", "General Public", "15003 14th Ave SW, Burien, WA 98166", "47.468217", "-122.3529814", "(206)-636-9575", [ "https://www.alimentandoalpueblo.org/", null ], null, "2/4/2026" ]
+, [ "row-fuwk_6ctu.fe6i", "00000000-0000-0000-A04D-6DD8226B1EE2", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Bakhita Gardens", "Bakhita Gardens", "Open", "Contact Agency for Any Eligibility Requirements", "118 Bell St, Seattle, WA 98121", "47.6139347", "-122.3459893", "(206)-456-3100", [ "https://ccsww.org/services/rose-of-lima-house/", null ], "Wednesday", "2/4/2026" ]
+, [ "row-j3yd.s6cr.qisw", "00000000-0000-0000-ECAE-8BD3B0F89A46", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Brooklake Church", "Brooklake Church", "Open", "General Public", "629 S 356th St, Federal Way, WA 98003", "47.282046", "-122.3256676", "(253)-517-8198", [ "https://www.brooklake.org/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday", "2/4/2026" ]
+, [ "row-cpgi_id3i_979v", "00000000-0000-0000-B203-52B799545B7C", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Center for MultiCultural Health", "Center for MultiCultural Health", "Open", "Contact Agency for Any Eligibility Requirements", "801 25th Ave, Seattle, WA 98122", "47.609283", "-122.3005353", "(206)-461-6910", [ "https://www.centerformulticulturalhealth.org/", null ], "Friday", "2/4/2026" ]
+, [ "row-5pb4_v4qz~6p7x", "00000000-0000-0000-D559-96B83A723E7C", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Chief Seattle Club", "Chief Seattle Club", "Open", "Contact Agency for Any Eligibility Requirements", "410 2nd Ave Ext S, Seattle, WA 98104", "47.6012206", "-122.3310925", "(206)-715-7536", [ "https://www.chiefseattleclub.org/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "2/4/2026" ]
+, [ "row-jhr8-8c4m-sjuk", "00000000-0000-0000-13BB-1BA3120EE10F", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Community Resource Network", "Community Resource Network", "Open", "Contact Agency for Any Eligibility Requirements", "14390 NE 189th Pl, Woodinville,  WA 98072", "47.7647921", "-122.1483885", "(425)-481-4497", [ "https://circliving.org/community/greenbrier-senior-apartments/", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "2/4/2026" ]
+, [ "row-8nfq.eisq.z9nr", "00000000-0000-0000-EFE6-A3342E3E346E", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Community Resource Network", "Community Resource Network", "Open", "General Public", "14616 35th Ave SE, Mill Creek,  WA 98012", "47.8647339", "-122.1870411", "(253)-661-1250", [ "https://www.ourventure.church/kb-programs-events", null ], "Monday", "2/4/2026" ]
+, [ "row-wxm8~btdv_eds6", "00000000-0000-0000-FB68-0DEBE0555B15", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Community Resource Network", "Light House Four Square Church", "Open", "Contact Agency for Any Eligibility Requirements", "15725 Simonds Rd NE, Kenmore, WA 98028", "47.7430346", "-122.2277786", "N/A", [ "https://lighthouse4square.org/", null ], null, "2/4/2026" ]
+, [ "row-t8rd~nwp6.pg4k", "00000000-0000-0000-8330-2316C739B411", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Community Resource Network", "Community Resource Network", "Open", "General Public", "604 Ave C E, Snohomish, WA 98290", "47.9194448", "-122.0965079", "(360)-568-5886", [ "https://www.mycrossview.com/", null ], "Monday, Wednesday", "2/4/2026" ]
+, [ "row-u9um~n63h_9zvf", "00000000-0000-0000-C329-0568F109B892", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Ember Church", "Ember Church", "Open", "General Public", "14434 NE 8th St, Bellevue, WA 98007", "47.6176373", "-122.1463239", "(425)-954-7036", [ "https://emberchurch.org/", null ], "Sunday, Monday", "2/4/2026" ]
+, [ "row-kucf~82bf~nz6e", "00000000-0000-0000-A707-F93091130609", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "For All", "For All", "Open", "General Public", "903 E Yesler Wy, Seattle, WA 98122", "47.6011076", "-122.3215355", "N/A", [ "https://www.freefoodforall.org/", null ], "Sunday, Saturday", "2/4/2026" ]
+, [ "row-fnux-5sht.43xr", "00000000-0000-0000-D05F-769D5C22458B", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Friends of the Children Seattle", "Friends of the Children Seattle", "Open", "Contact Agency for Any Eligibility Requirements", "4436 Rainier Ave, Seattle WA 98118", "47.5630626", "-122.2875122", "(206)-328-3535", [ "http://friendsseattle.org/", null ], null, "2/4/2026" ]
+, [ "row-9xwx-vsn5~5nfg", "00000000-0000-0000-51F1-34453BBEDEEE", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Aki Kurose Village", "Open", "Contact Agency for Any Eligibility Requirements", "11506 Stone Ave N, Seattle, WA 98133", "47.7127728", "-122.3415655", "(206)-538-6567", [ "https://hungerintervention.org/", null ], null, "2/4/2026" ]
+, [ "row-wpj7-rk6j~2qfh", "00000000-0000-0000-710F-3581C060D889", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Lamb of God Lutheran Church", "Open", "Contact Agency for Any Eligibility Requirements", "12509 27th Ave NE, Seattle, WA 98125", "47.7196732", "-122.2996593", "(206)-538-6567", [ "https://hungerintervention.org/", null ], null, "2/4/2026" ]
+, [ "row-kbep~s93z.qewp", "00000000-0000-0000-EC18-FB3C9D8174DF", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Lake City Court", "Open", "Contact Agency for Any Eligibility Requirements", "12536 33rd Ave NE, Seattle, WA 98125", "47.7203805", "-122.2917535", "(206)-538-6567", [ "https://hungerintervention.org/", null ], null, "2/4/2026" ]
+, [ "row-qi28_vy26-85as", "00000000-0000-0000-8DE1-A49EC2125124", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Hunger Intervention Program", "Hunger Intervention Program", "Open", "Contact Agency for Any Eligibility Requirements", "3841 NE 123rd St Seattle, WA 98122", "47.717042", "-122.2857324", "(206)-538-6567", [ "https://hungerintervention.org/", null ], null, "2/4/2026" ]
+, [ "row-snvy.vndd-3ee2", "00000000-0000-0000-E3D0-F372D335BE1E", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "ICNA Relief", "ICNA Relief", "Open", "General Public", "6721 Martin Luther King Jr Way S, Seattle, WA 98118", "47.541886", "-122.284044", "(206)-695-2080", [ "https://icnarelief.org/washington/", null ], "Thursday", "2/4/2026" ]
+, [ "row-bbyr-epm7-cpfk", "00000000-0000-0000-5CFD-A9917763B1CA", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "IHCGM", "IHCGM", "Open", "Contact Agency for Any Eligibility Requirements", "30815 B  Pacific Highway S, Federal Way, WA 98003", "47.3254052", "-122.3139776", "(206)-592-2626", null, "Thursday", "2/4/2026" ]
+, [ "row-uxqi.mmwp.sib3", "00000000-0000-0000-18B7-1B0C1E5B54CF", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank & Meal", "Iu Mien American Association (IMAA)", "Iu Mien American Association (IMAA)", "Open", "General Public", "126 Logan Ave S, Renton, WA 98057", "47.481806", "-122.2087821", "(206)-723-6834", [ "https://imaa-seattle.org/", null ], "Friday", "2/4/2026" ]
+, [ "row-4aum~d5dg-fr9p", "00000000-0000-0000-6D47-00BFE1731D04", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "King of Kings Foodbank", "King of Kings Foodbank", "Open", "General Public", "18207 108th Ave SE Renton, WA 98055", "47.4391217", "-122.1979638", "(425)-226-1480", [ "https://www.king-of-kings.org/", null ], "Monday, Tuesday, Wednesday, Saturday", "2/4/2026" ]
+, [ "row-bpa8~x5v2.kj9z", "00000000-0000-0000-EF1E-BA6E5B12BFB8", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Lutheran Community Services NW", "Lutheran Community Services NW", "Open", "General Public", "4040 S 188th St, Suite 100, SeaTac, WA 98188", "47.4347675", "-122.2824819", "(206)-901-1685", [ "https://www.lcsnw.org/", null ], "Thursday", "2/4/2026" ]
+, [ "row-nyz6~8thg.7fhm", "00000000-0000-0000-80FA-DBDEE06C6ACF", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "NW Life Foundation", "NW Life Foundation", "Open", "Youth and Young Adults", "13120 SE 192nd St, Renton, WA 98058", "47.4309146", "-122.1659094", "(253)-638-8470", [ "https://nwlifefoundation.com/", null ], "Tuesday, Wednesday, Thursday, Friday", "2/4/2026" ]
+, [ "row-9zmn.8bfn.xzay", "00000000-0000-0000-FB00-47261EC13A83", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Operation Sack Lunch, Inc.", "OSL", "Open", "General Public", "115 S Brandon St, Seattle, WA 98108", "47.5539241", "-122.3331017", "(206)-347-6629", [ "https://www.oslserves.org/", null ], null, "2/4/2026" ]
+, [ "row-xs4a_ubxy~tbk8", "00000000-0000-0000-2CBD-F66C38226089", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Operation Sack Lunch, Inc.", "YWCA Opportunity Place", "Open", "Contact Agency for Any Eligibility Requirements", "2024 3rd Ave, Seattle, WA 98121", "47.6130256", "-122.3415787", "(206)-347-6629", [ "https://www.oslserves.org/", null ], null, "2/4/2026" ]
+, [ "row-q8my.x49f_y5gf", "00000000-0000-0000-E28E-7E94353533F5", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Operation Sack Lunch, Inc.", "OSL", "Open", "General Public", "3841 NE 123rd St, Seattle, WA 98125", "47.717042", "-122.2857324", "(206)-347-6629", [ "https://www.oslserves.org/", null ], "Wednesday", "2/4/2026" ]
+, [ "row-r7u6.393r_qzxf", "00000000-0000-0000-EB57-86251B39FD21", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Operation Sack Lunch, Inc.", "OSL", "Open", "Contact Agency for Any Eligibility Requirements", "700 Virginia St, Seattle, WA 98101", "47.6153602", "-122.3374101", "(206)-347-6629", [ "https://www.oslserves.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "2/4/2026" ]
+, [ "row-x3u6_47gq.mrb8", "00000000-0000-0000-F452-8C665769EE76", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Pacific Islander Community Association", "Pacific Islander Community Association", "Open", "General Public", "33710 9th Ave S, Federal Way, WA 98003", "47.2994051", "-122.3220645", "(206)-686-5221", [ "https://www.picawa.org/", null ], "Thursday", "2/4/2026" ]
+, [ "row-kdaz~ixgt.9j6s", "00000000-0000-0000-ED4D-F19CB651D801", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Praisealujah", "Praisealujah", "Open", "General Public", "13609 1st Ave S, Burien, WA 98168", "47.4809242", "-122.3370002", "(206)-251-8971", [ "https://praisealujah.org/community-based-services", null ], "Sunday", "2/5/2026" ]
+, [ "row-i7wu_4arn~v7z8", "00000000-0000-0000-7910-20A127957A77", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Praisealujah", "Praisealujah", "Open", "General Public", "20832 International Blvd, SeaTac, WA 98198", "47.4144935", "-122.2965291", "(206)-251-8971", [ "https://praisealujah.org/community-based-services", null ], "Saturday", "2/5/2026" ]
+, [ "row-3ybh-g7bk-mqdw", "00000000-0000-0000-710A-D130966CAD34", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Praisealujah", "Praisealujah", "Open", "General Public", "25440 Pacific Hwy S, Kent, WA 98032", "47.3729828", "-122.2999657", "N/A", null, null, "2/5/2026" ]
+, [ "row-gy3g~7t6z_a2wp", "00000000-0000-0000-C3D5-E4C99D771324", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Praisealujah", "Freedom Church of Seattle", "Open", "General Public", "7817 S 125th St, Seattle, WA 98178", "47.4904973", "-122.2347174", "N/A", [ "https://freedomchurchofseattle.weebly.com/", null ], null, "2/5/2026" ]
+, [ "row-4har.6vjd~n6ga", "00000000-0000-0000-2F38-F1929C5E261B", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Praisealujah", "Praisealujah", "Open", "General Public", "8240 64th St NE, Marysville, WA 98270", "48.0530476", "-122.1207544", "N/A", null, null, "2/5/2026" ]
+, [ "row-2rc8_pui7-7taw", "00000000-0000-0000-C405-F27F488D0E53", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Praisealujah", "North Hill Christian Church", "Open", "General Public", "908 S 200th St, Des Moines, WA 98198", "47.4234868", "-122.3228325", "(206)-878-4740", [ "https://www.northhillchristian.org/free-food-friday/", null ], "Friday", "2/5/2026" ]
+, [ "row-h44s.gssv_9qe4", "00000000-0000-0000-AB9B-E3214F717D89", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Rainier Vista Boys & Girls Club", "Rainier Vista Boys & Girls Club", "Open", "Youth and Young Adults", "4520 MLK Wy, Seattle, WA 98108", "47.5626423", "-122.2937256", "(206)-436-1890", [ "https://positiveplace.org/clubs/smilow-rainier-vista", null ], null, "2/5/2026" ]
+, [ "row-rcg6_ychj~ey4i", "00000000-0000-0000-AC3B-494E699F649F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Renton Technical College", "Renton Technical College", "Open", "Contact Agency for Any Eligibility Requirements", "3000 NE 4th St, Renton, WA 98056", "47.4892601", "-122.1762473", "(425)-235-2352", [ "https://www.rtc.edu/", null ], null, "2/5/2026" ]
+, [ "row-6gvz_8xgj~w939", "00000000-0000-0000-4C78-4D3B8B68835C", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Restore and Repair Outreach", "Restore and Repair Outreach", "Open", "General Public", "12629 Renton Ave S  Suite F, Seattle, WA 98178", "47.4904151", "-122.239492", "(206)-650-9649", [ "https://www.restorerepairmissionaryoutreach.org/", null ], "Wednesday, Friday", "2/5/2026" ]
+, [ "row-j9ij.fgbb.w5hp", "00000000-0000-0000-2762-86FDC78F1245", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Skykomish", "Skykomish", "Open", "General Public", "108 W Old Cascade Hwy, Skykomish, WA 98288", "47.7088797", "-121.3764638", "(206)-399-2687", [ "https://skykomishfoodbank.org/", null ], "Friday", "2/5/2026" ]
+, [ "row-sht7~xpap-5g5w", "00000000-0000-0000-E94E-A279AF74447C", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "St. Dunstan's Episcopal Church", "St. Dunstan's Episcopal Church", "Open", "General Public", "722 N 145th St, Shoreline, WA 98133", "47.7347114", "-122.349521", "(206)-363-4319", [ "https://sdchp.org/", null ], "Tuesday", "2/5/2026" ]
+, [ "row-t8zq_xhkk.n8sv", "00000000-0000-0000-3971-B166D259E522", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "St. Martin De Porres Shelter", "St. Martin De Porres Shelter", "Open", "Contact Agency for Any Eligibility Requirements", "1561 Alaskan Way S, Seattle, WA 98134", "47.5885034", "-122.3385348", "(206)-323-6341", [ "https://www.ccsww.org/stmartin", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "2/5/2026" ]
+, [ "row-ztr5_t5bp~xave", "00000000-0000-0000-6FAD-AB2AC1E94835", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "St. James Cathedral", "Cathedral Kitchen", "Open", "General Public", "804 9th Ave, Seattle, WA 98104", "47.607646", "-122.3259157", "(206)-264-2091", [ "https://www.stjames-cathedral.org/outreach/kitchen.aspx", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "8/12/2025" ]
+, [ "row-ekw2.hb69-civg", "00000000-0000-0000-FAF3-C0B5992F19C9", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Sound Generations", "South Park Senior Citizens", "Open", "Older Adults 55+ and Eligible Participants", "8201 10th Ave S, Seattle, WA 98108", "47.5296153", "-122.320528", "(206)-909-0346", [ "https://www.spseniors.org/", null ], "Monday, Wednesday, Friday", "8/5/2025" ]
+, [ "row-rcr5-cwtm-dzng", "00000000-0000-0000-80F8-A8AC1B090EA8", 0, 1770401763, null, 1770401763, null, "{ }", "Food Bank", "Urban Food Systems Pact", "Urban Food Systems Pact", "Open", "General Public", "12643 Renton Ave S Seattle, WA 98178", "47.4900561", "-122.2389931", "(425)-728-0455", [ "https://app.vomo.org/org/urban-food-systems-pact/profile", null ], null, "2/5/2026" ]
+, [ "row-56y3~vhc6_zc5b", "00000000-0000-0000-868E-00B81EB31158", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Vedic Cultural Center", "Vedic Cultural Center", "Open", "Contact Agency for Any Eligibility Requirements", "13668 SE Eastgate Way, Bellevue WA 98005", "47.5809349", "-122.1583137", "(425)-452-6800", [ "https://bellevuewa.gov/city-government/departments/city-managers-office/office-housing/homelessness-bellevue/eastside-mens-shelter", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "2/5/2026" ]
+, [ "row-jp4k_9bt7~6as2", "00000000-0000-0000-6D30-B956954AB744", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Vedic Cultural Center", "Vedic Cultural Center", "Open", "General Public", "1420 228th Ave SE, Sammamish, WA 98075", "47.5963216", "-122.0345073", "(206)-979-8002", [ "https://vedicculturalcenter.org/", null ], "Sunday, Saturday", "2/5/2026" ]
+, [ "row-pkv2_j7ep-pxb2", "00000000-0000-0000-23B9-FFB8B775D3DA", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Vedic Cultural Center", "Vedic Cultural Center", "Open", "Contact Agency for Any Eligibility Requirements", "16305 NE 87th St, Suite 110 Redmond, WA 98052", "47.6794762", "-122.1223595", "N/A", null, null, "2/5/2026" ]
+, [ "row-a5tj.3yjw~e6ic", "00000000-0000-0000-5E92-56F8688D8B91", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "Vedic Cultural Center", "Vedic Cultural Center", "Open", "Contact Agency for Any Eligibility Requirements", "5034 University Way NE Seattle, WA 98105", "47.6660333", "-122.3126175", "N/A", null, null, "2/5/2026" ]
+, [ "row-jjnn~kpfe~a8c7", "00000000-0000-0000-8C2B-52561F48723F", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "West African Community Council", "West African Community Council", "Open", "Contact Agency for Any Eligibility Requirements", "6322 44th Ave S, Seattle, WA 98118", "47.5453084", "-122.2778957", "N/A", [ "https://www.waccofseattle.org/", null ], "Monday, Tuesday, Wednesday, Thursday, Friday", "2/5/2026" ]
+, [ "row-vdxu~b4hy.qeas", "00000000-0000-0000-CB0F-084164584B60", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "YMCA of Greater Seattle", "YMCA of Greater Seattle", "Open", "Contact Agency for Any Eligibility Requirements", "909 4th Ave, Seattle, WA, Seattle, 98104", "47.6054636", "-122.3327052", "N/A", [ "https://www.seattleymca.org/social-impact-center/youth-young-adults/drop-in-services", null ], "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "2/5/2026" ]
+, [ "row-xbbu~6adm_e259", "00000000-0000-0000-3ECD-AF2769ECD711", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "YMCA of Greater Seattle", "POPYs Caf�", "Open", "General Public", "4514 20th Ave NE, Shoreline, WA 98155", "47.734046", "-122.3070896", null, [ "https://www.seattleymca.org/blog/supporting-our-community-during-time-increased-food-insecurity", null ], "Wednesday", "2/5/2026" ]
+, [ "row-u6ib~cf5s.wyu4", "00000000-0000-0000-6292-7E715DC61F51", 0, 1770401763, null, 1770401763, null, "{ }", "Meal", "YMCA of Greater Seattle", "Pantry of Hope", "Open", "General Public", "10828 SE 248th St, Kent, WA 98030", "47.3797615", "-122.1953258", null, [ "https://www.seattleymca.org/blog/supporting-our-community-during-time-increased-food-insecurity", null ], "Friday", "2/5/2026" ]
+ ]
+}
