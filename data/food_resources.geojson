@@ -1,0 +1,2190 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3303783,
+          47.5843633
+        ]
+      },
+      "properties": {
+        "name": "ACRS Food Bank and Meals",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Wednesday, Friday | Wednesday, Friday | Serves: General Public",
+        "agency": "Asian Counseling and Referral Service (ACRS)",
+        "phone": "(206)-695-7510",
+        "website": "https://acrs.org/services/aging-services-for-older-adults/acrs-food-bank/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2973881,
+          47.570897
+        ]
+      },
+      "properties": {
+        "name": "Club Bamboo and Hmong Senior Club",
+        "resource_type": "cultural-foods",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Asian Counseling and Referral Service (ACRS)",
+        "phone": "(206)-695-7510",
+        "website": "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2803173,
+          47.5400001
+        ]
+      },
+      "properties": {
+        "name": "Duoc Su Senior Nutrition Program",
+        "resource_type": "cultural-foods",
+        "affordability": "free",
+        "description": "Saturday | Saturday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Asian Counseling and Referral Service (ACRS)",
+        "phone": "(206)-695-7510",
+        "website": "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3922666,
+          47.546979
+        ]
+      },
+      "properties": {
+        "name": "Friendly Island of Tonga Seniors",
+        "resource_type": "cultural-foods",
+        "affordability": "free",
+        "description": " |  | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Asian Counseling and Referral Service (ACRS)",
+        "phone": "(206)-695-7510",
+        "website": "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3069784,
+          47.6219158
+        ]
+      },
+      "properties": {
+        "name": "Korean Senior Club Miller Community Center",
+        "resource_type": "cultural-foods",
+        "affordability": "free",
+        "description": "Tuesday, Friday | Tuesday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Asian Counseling and Referral Service (ACRS)",
+        "phone": "(206)-695-7510",
+        "website": "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2871358,
+          47.5500465
+        ]
+      },
+      "properties": {
+        "name": "Filipino Community of Seattle",
+        "resource_type": "cultural-foods",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Thursday, Friday | Monday, Tuesday, Thursday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Asian Counseling and Referral Service (ACRS)",
+        "phone": "(206)-695-7510",
+        "website": "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2996639,
+          47.5842083
+        ]
+      },
+      "properties": {
+        "name": "Seattle Korean Elders Association Center Park",
+        "resource_type": "cultural-foods",
+        "affordability": "free",
+        "description": "Tuesday, Friday | Tuesday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Asian Counseling and Referral Service (ACRS)",
+        "phone": "(206)-695-7510",
+        "website": "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3021127,
+          47.6076951
+        ]
+      },
+      "properties": {
+        "name": "Vietnamese Senior Association Garfield Community Center",
+        "resource_type": "cultural-foods",
+        "affordability": "free",
+        "description": "Tuesday, Friday | Tuesday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Asian Counseling and Referral Service (ACRS)",
+        "phone": "(206)-695-7510",
+        "website": "https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3401409,
+          47.608632
+        ]
+      },
+      "properties": {
+        "name": "Atrium Kitchen",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Thursday | Thursday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Atrium Kitchen",
+        "phone": "(206)-829-9525",
+        "website": "https://www.atriumkitchenpikeplace.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3442384,
+          47.6938816
+        ]
+      },
+      "properties": {
+        "name": "Aurora Commons",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday | Monday, Tuesday, Wednesday, Thursday | Serves: General Public",
+        "agency": "Aurora Commons",
+        "phone": "(206)-299-2278",
+        "website": "https://www.auroracommons.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3740701,
+          47.66404713
+        ]
+      },
+      "properties": {
+        "name": "Ballard Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday | Monday, Tuesday, Wednesday, Thursday | Serves: General Public",
+        "agency": "Ballard Food Bank",
+        "phone": "(206)-789-7800",
+        "website": "https://www.ballardfoodbank.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3411453,
+          47.6873209
+        ]
+      },
+      "properties": {
+        "name": "Bethany Food Bank at Green Lake",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday | Monday | Serves: General Public",
+        "agency": "Bethany Community Church",
+        "phone": "(206)-524-9000",
+        "website": "https://www.churchbcc.org/missions/localmissions"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3190289,
+          47.6664368
+        ]
+      },
+      "properties": {
+        "name": "First United Methodist Church of Seattle",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Sunday, Friday | Sunday, Friday | Serves: General Public",
+        "agency": "Blessed Sacrament",
+        "phone": "(206)-547-3020",
+        "website": "https://www.blessed-sacrament.org/outreach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.334605,
+          47.5999268
+        ]
+      },
+      "properties": {
+        "name": "Bread of Life Mission",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "Bread of Life Mission",
+        "phone": "(206)-682-3579",
+        "website": "https://www.breadoflifemission.org/emergency-services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3085629,
+          47.6088532
+        ]
+      },
+      "properties": {
+        "name": "The Market",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Tuesday, Wednesday, Thursday | Tuesday, Wednesday, Thursday | Serves: General Public",
+        "agency": "Byrd Barr Place",
+        "phone": "(206)-812-4940",
+        "website": "https://www.byrdbarrplace.org/programs-services/food-bank/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.201035,
+          47.67621
+        ]
+      },
+      "properties": {
+        "name": "Peter Kirk Community Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Tuesday, Wednesday, Friday | Tuesday, Wednesday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Catholic Community Services of  Western Washington",
+        "phone": "(425)-587-3360",
+        "website": "https://www.kirklandwa.gov/depart/parks/About_Parks_and_Community_Services/Senior_Services.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3015923,
+          47.5822614
+        ]
+      },
+      "properties": {
+        "name": "Phoenix Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Catholic Community Services of  Western Washington",
+        "phone": "(206)-623-7219",
+        "website": "https://www.ccsww.org/get-help/shelter-homeless-services/lazarus-center/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320142,
+          47.623387
+        ]
+      },
+      "properties": {
+        "name": "All Pilgrims Christian Church",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Community Lunch on Capitol Hill",
+        "phone": "(206)-972-2524",
+        "website": "https://www.communitylunch.org/about-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3203773,
+          47.6233603
+        ]
+      },
+      "properties": {
+        "name": "All Pilgrims Christian Church",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "Community Lunch on Capitol Hill",
+        "phone": "(206)-972-2524",
+        "website": "https://www.communitylunch.org/about-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3113797,
+          47.5805157
+        ]
+      },
+      "properties": {
+        "name": "El Centro de la Raza",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Wednesday, Thursday, Friday | Wednesday, Thursday, Friday | Serves: Food Bank: General Public \nMeals: Older Adults 60+ and Eligible Participants",
+        "agency": "El Centro de la Raza",
+        "phone": "(206)-957-4605",
+        "website": "https://www.elcentrodelaraza.org/get-help/human-emergency-services/food-bank/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3416573,
+          47.7052676
+        ]
+      },
+      "properties": {
+        "name": "The Giving Room",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday | Monday | Serves: General Public",
+        "agency": "Epic Church",
+        "phone": "(206)-552-9586",
+        "website": "https://www.epiclifechurch.org/incarnational-ministry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3072811,
+          47.58918453
+        ]
+      },
+      "properties": {
+        "name": "Eritrean Association in Greater Seattle",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": " |  | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Eritrean Association in Greater Seattle",
+        "phone": "(206)-548-6387",
+        "website": "https://www.eritreanassociation.org/programs-blog/blog-post-title-four-thpy4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3557886,
+          47.6984899
+        ]
+      },
+      "properties": {
+        "name": "Greenwood Food Bank - Hope Market",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Tuesday, Wednesday | Tuesday, Wednesday | Serves: General Public",
+        "agency": "Salvation Army",
+        "phone": NaN,
+        "website": "https://seattletemple.salvationarmy.org/seattle_temple_corps/greenwood-food-bank-1/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3444542,
+          47.6597609
+        ]
+      },
+      "properties": {
+        "name": "Wallingford Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Tuesday, Thursday, Friday | Tuesday, Thursday, Friday | Serves: General Public",
+        "agency": "FamilyWorks",
+        "phone": "(206)-647-1780",
+        "website": "https://www.familyworksseattle.org/food-banks/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2871358,
+          47.5500465
+        ]
+      },
+      "properties": {
+        "name": "Filipino Community of Seattle Meals and Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Thursday | Monday, Tuesday, Thursday | Serves: Food Bank: General Public \nMeals: Older Adults 60+ and Eligible Participants",
+        "agency": "Filipino Community of Seattle",
+        "phone": "(206)-722-9372",
+        "website": "https://www.filcommsea.org/senior-services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3070989,
+          47.5888499
+        ]
+      },
+      "properties": {
+        "name": "Eritrean Association in Greater Seattle",
+        "resource_type": "cultural-foods",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Thursday | Monday, Tuesday, Thursday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Filipino Community of Seattle",
+        "phone": "(206)-722-9372",
+        "website": "https://www.filcommsea.org/index.php/programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3263239,
+          47.6142392
+        ]
+      },
+      "properties": {
+        "name": "First Covenant Church",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Saturday | Saturday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "First Covenant Church",
+        "phone": "(206)-322-7411",
+        "website": "https://www.firstcovenantseattle.org/outreach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3531962,
+          47.6188068
+        ]
+      },
+      "properties": {
+        "name": "First United Methodist Church of Seattle",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday | Sunday | Serves: General Public",
+        "agency": "First United Methodist Church of Seattle",
+        "phone": "(206)-622-7278",
+        "website": "https://www.firstchurchseattle.org/shared-breakfast/?fbclid=IwAR2EAykPB90--700TuZeuY3aX18yx3tXkg9lbCW8qVghb3RgTCJJnwkB7wQ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3328885,
+          47.6000475
+        ]
+      },
+      "properties": {
+        "name": "Occidental Park",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Saturday | Sunday, Saturday | Serves: General Public",
+        "agency": "Food Not Bombs - Seattle",
+        "phone": "(206)-397-6815",
+        "website": "https://www.seattlefoodnotbombs.org/?fbclid=IwAR3T68e9asOm5ksmU_CuHK8ppZZir1QFQBRn_HbSvUCNvhDb7sGxeFXhr_g"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3252185,
+          47.6756763
+        ]
+      },
+      "properties": {
+        "name": "Frelard Tamales",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: General Public",
+        "agency": "Frelard Tamales",
+        "phone": "(206)-523-6654",
+        "website": "https://www.frelardtamales.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3201755,
+          47.710233
+        ]
+      },
+      "properties": {
+        "name": "Cedarvale Village",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Youth and Young Adults",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://www.hungerintervention.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291805,
+          47.720291
+        ]
+      },
+      "properties": {
+        "name": "Lake City Court",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Youth and Young Adults",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://www.hungerintervention.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2975849,
+          47.7197784
+        ]
+      },
+      "properties": {
+        "name": "Farmers Market at Lake City Community Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Thursday | Thursday | Serves: Youth and Young Adults",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://www.hungerintervention.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3410813,
+          47.7191339
+        ]
+      },
+      "properties": {
+        "name": "Bella-B Mobile Park Home",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Youth and Young Adults",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://www.hungerintervention.org"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29595,
+          47.733508
+        ]
+      },
+      "properties": {
+        "name": "Jackson Park Community Building",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Youth and Young Adults",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://www.hungerintervention.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321098,
+          47.6206572
+        ]
+      },
+      "properties": {
+        "name": "Immanuel Community Services Food Bank and Community Lunch",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Sunday, Monday | Sunday, Monday | Serves: General Public",
+        "agency": "Immanuel Community Services",
+        "phone": "(206)-622-1930",
+        "website": "https://www.icsseattle.org/covid-19-info/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3118419,
+          47.6155896
+        ]
+      },
+      "properties": {
+        "name": "Polack Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Wednesday, Thursday, Friday | Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "Jewish Family Service",
+        "phone": "(206)-461-3240",
+        "website": "https://www.jfsseattle.org/get-help/polack-food-bank/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3127166,
+          47.5803727
+        ]
+      },
+      "properties": {
+        "name": "Musang Community Kitchen",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday | Monday, Tuesday | Serves: General Public",
+        "agency": "Musang Community Kitchen",
+        "phone": "(206)-708-6871",
+        "website": "https://www.musangseattle.com/community-kitchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3472592,
+          47.7242235
+        ]
+      },
+      "properties": {
+        "name": "Bitter Lake Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Saturday | Saturday | Serves: General Public",
+        "agency": "North Helpline",
+        "phone": "(206)-367-3477",
+        "website": "https://www.northhelpline.org/get-help/bitter-lake/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2918447,
+          47.7223248
+        ]
+      },
+      "properties": {
+        "name": "Lake City Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Wednesday, Thursday, Saturday | Wednesday, Thursday, Saturday | Serves: General Public",
+        "agency": "North Helpline",
+        "phone": "(206)-367-3477",
+        "website": "https://www.northhelpline.org/get-help/food-bank/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3295651,
+          47.5855714
+        ]
+      },
+      "properties": {
+        "name": "SODO Community Market",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Wednesday, Friday | Monday, Wednesday, Friday | Serves: General Public",
+        "agency": "Northwest Harvest",
+        "phone": "(800)-722-6924",
+        "website": "https://www.northwestharvest.org/sodo-community-market?gclid=CjwKCAjwguzzBRBiEiwAgU0FT2oeYOjgOqT-nfdpq8cCoSR-ynhQyJnFA4Xuzmhtt749Xzpz19jAZRoCaTUQAvD_BwE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3137458,
+          47.666133
+        ]
+      },
+      "properties": {
+        "name": "University Heights Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Wednesday, Friday, Saturday | Sunday, Wednesday, Friday, Saturday | Serves: General Public",
+        "agency": "Northwest SHARE",
+        "phone": "(206)-527-4278",
+        "website": "https://www.uheightscenter.org/coronavirus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3137564,
+          47.5998571
+        ]
+      },
+      "properties": {
+        "name": "Operation Nightwatch Shelter Dispatch Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: General Public",
+        "agency": "Operation Nightwatch",
+        "phone": "(206)-329-2099",
+        "website": "https://www.seattlenightwatch.org/what-we-do/food-and-shelter/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3353162,
+          47.60104542
+        ]
+      },
+      "properties": {
+        "name": "Compass Housing",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: General Public",
+        "agency": "Operation Sack Lunch, Inc.",
+        "phone": "(206)-347-6629",
+        "website": "https://www.oslserves.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3524692,
+          47.5344477
+        ]
+      },
+      "properties": {
+        "name": "Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Tuesday | Tuesday | Serves: General Public",
+        "agency": "Paradise of Praise",
+        "phone": "(206)-234-2713",
+        "website": "https://www.seattlefoodcommittee.org/food_bank/paradise-of-praise/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2981048,
+          47.7203524
+        ]
+      },
+      "properties": {
+        "name": "Hunger Intervention Program - Lake City Community Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Wednesday, Friday | Monday, Wednesday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-707-1865",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3375982,
+          47.6155497
+        ]
+      },
+      "properties": {
+        "name": "St. Martin's On Westlake",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "St. Martin's On Westlake",
+        "phone": "(206)-340-0410",
+        "website": "https://ccsww.org/services/permanent-housing/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3547797,
+          47.6835063
+        ]
+      },
+      "properties": {
+        "name": "Phinney Ridge Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Tuesday, Wednesday | Tuesday, Wednesday | Serves: General Public",
+        "agency": "Phinney Ridge Lutheran Church",
+        "phone": "(206)-783-2350",
+        "website": "https://prlc.org/phinney-ridge-lutheran-church-food-bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.342051,
+          47.608886
+        ]
+      },
+      "properties": {
+        "name": "Pike Market Senior Center",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Pike Market Senior Center",
+        "phone": "(206)-728-2773",
+        "website": "https://www.pmsc-fb.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3405616,
+          47.6084268
+        ]
+      },
+      "properties": {
+        "name": "Pike Market Senior Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Older Adults 55+ and Eligible Participants",
+        "agency": "Pike Market Senior Center",
+        "phone": "(206)-728-2773",
+        "website": "https://www.pmsc-fb.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2809353,
+          47.5374953
+        ]
+      },
+      "properties": {
+        "name": "Central Seattle",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Sunday, Monday | Sunday, Monday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Plant Based Food Share",
+        "phone": "(971)-245-2907?",
+        "website": "https://www.plantbasedfoodshare.org"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.381152,
+          47.669121
+        ]
+      },
+      "properties": {
+        "name": "Prison Scholar Fund",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Thursday, Friday | Thursday, Friday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Prison Scholar Fund",
+        "phone": "(206)-734-5425",
+        "website": "https://www.prisonscholars.org/food-security/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3291893,
+          47.5546964
+        ]
+      },
+      "properties": {
+        "name": "Puget Sound Labor Agency Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Wednesday | Monday, Wednesday | Serves: General Public",
+        "agency": "Puget Sound Labor Agency",
+        "phone": "(206)-448-9277",
+        "website": "https://www.pugetsoundlaboragency.org/food-bank.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320245,
+          47.675803
+        ]
+      },
+      "properties": {
+        "name": "Ravenna PopUp Kitchen",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday | Sunday | Serves: General Public",
+        "agency": "Ravenna PopUp Kitchen",
+        "phone": NaN,
+        "website": "https://www.facebook.com/pages/category/Community/Ravenna-PopUp-Kitchen-498542463880219/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3346308,
+          47.618348
+        ]
+      },
+      "properties": {
+        "name": "South Lake Union",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Tuesday, Wednesday, Thursday, Friday, Saturday | Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Recovery Caf\ufffd",
+        "phone": "(206)-374-8731",
+        "website": "https://www.recoverycafe.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3124319,
+          47.6592588
+        ]
+      },
+      "properties": {
+        "name": "Friday Feast",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Friday | Friday | Serves: General Public",
+        "agency": "ROOTS",
+        "phone": "(206)-632-1635",
+        "website": "https://www.rootsinfo.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3076074,
+          47.6624222
+        ]
+      },
+      "properties": {
+        "name": "Roots Young Adult Shelter",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Friday | Friday | Serves: General Public",
+        "agency": "Roots Young Adult Shelter",
+        "phone": "(206)-632-1635",
+        "website": "https://www.rootsinfo.org/friday-feast-volunteer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3537259,
+          47.6206989
+        ]
+      },
+      "properties": {
+        "name": "Queen Anne Food Bank and Meals",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "Sacred Heart Church/SVDP Society",
+        "phone": "(206)-216-4102",
+        "website": "https://www.sacredheartseattle.org/qafb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3547065,
+          47.5215741
+        ]
+      },
+      "properties": {
+        "name": "Salvation Army White Center",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Food Bank: General Public \nMeals: Older Adults 60+ and Eligible Participants",
+        "agency": "Salvation Army",
+        "phone": "(206)-767-3150",
+        "website": "https://tsawhitecenter.org/SeattleWhiteCenter/help"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3254326,
+          47.5959979
+        ]
+      },
+      "properties": {
+        "name": "Emergency Meals and Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "Seattle Indian Center",
+        "phone": "(206)-329-8700",
+        "website": "https://www.seattleindian.org/services/food-security-programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3291318,
+          47.5486194
+        ]
+      },
+      "properties": {
+        "name": "Georgetown Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Tuesday, Thursday, Friday | Tuesday, Thursday, Friday | Serves: General Public",
+        "agency": "Society of St Vincent de Paul Council",
+        "phone": "(206)-686-5260",
+        "website": "https://www.svdpseattle.org/get-help/food-bank/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2934033,
+          47.5364556
+        ]
+      },
+      "properties": {
+        "name": "American Polynesian Organization and International Drop-In Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Tuesday | Tuesday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-606-0916",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3987072,
+          47.6684176
+        ]
+      },
+      "properties": {
+        "name": "Ballard NW Senior Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-297-0403",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2932771,
+          47.597467
+        ]
+      },
+      "properties": {
+        "name": "Central Area Senior Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-726-4926",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2889468,
+          47.5653236
+        ]
+      },
+      "properties": {
+        "name": "Rainier Valley Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Wednesday, Friday | Wednesday, Friday | Serves: General Public",
+        "agency": "Rainier Valley Food Bank",
+        "phone": "(206)-723-4105",
+        "website": "https://www.rvfb.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3471612,
+          47.5225031
+        ]
+      },
+      "properties": {
+        "name": "First Tongan Senior Association",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Wednesday | Wednesday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-727-6248",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3509931,
+          47.6904002
+        ]
+      },
+      "properties": {
+        "name": "Greenwood Senior Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-297-0875",
+        "website": "https://www.phinneycenter.org/seniors/gsc/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3111496,
+          47.6617835
+        ]
+      },
+      "properties": {
+        "name": "University Congregational Church",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Youth and Young Adults",
+        "agency": "Teen Feed",
+        "phone": "(206)-229-0813",
+        "website": "https://www.teenfeed.org/programs/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3092827,
+          47.6003875
+        ]
+      },
+      "properties": {
+        "name": "Kawabe Memorial House",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-322-4550",
+        "website": "https://kawabehouse.org/meiji-kai-menu/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2729875,
+          47.5422737
+        ]
+      },
+      "properties": {
+        "name": "Southeast Seattle Senior Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-727-6248",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3864553,
+          47.5626975
+        ]
+      },
+      "properties": {
+        "name": "West Seattle Senior Center",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-932-4044",
+        "website": "https://sc-ws.org/services/food-and-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3221733,
+          47.7054887
+        ]
+      },
+      "properties": {
+        "name": "Northgate Community Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Tuesday | Tuesday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Sound Generations & SPS",
+        "phone": "(206)-538-6567",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3202219,
+          47.60151
+        ]
+      },
+      "properties": {
+        "name": "Yesler Community Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Thursday | Monday, Thursday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations & SPS",
+        "phone": "(206)-227-8659",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3155223,
+          47.6653128
+        ]
+      },
+      "properties": {
+        "name": "YMCA of Greater Seattle - University Family",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "YMCA of Greater Seattle - University Family",
+        "phone": "(206)-524-1400",
+        "website": "https://www.ymca.org/what-we-do/youth-development/food-programs/summer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3870101,
+          47.6704508
+        ]
+      },
+      "properties": {
+        "name": "St Paul's United Church of Christ",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "Edible Hope Kitchen",
+        "phone": "(206)-784-3119",
+        "website": "https://www.ediblehopekitchen.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2624573,
+          47.5261434
+        ]
+      },
+      "properties": {
+        "name": "East African Senior Program (RBUFW)",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Tuesday, Friday | Tuesday, Friday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-227-8659",
+        "website": "https://www.soundgenerations.org/our-programs/food-security/community-dining/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3065791,
+          47.5972377
+        ]
+      },
+      "properties": {
+        "name": "The Food Bank @ St. Mary's",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Wednesday, Friday | Monday, Wednesday, Friday | Serves: General Public",
+        "agency": "The Food Bank @ St. Mary's",
+        "phone": "(206)-324-7215",
+        "website": "https://www.thefbsm.org/services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2624573,
+          47.5261434
+        ]
+      },
+      "properties": {
+        "name": "South Seattle  - Rainier Beach",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Thursday | Thursday | Serves: General Public",
+        "agency": "Tilth  Alliance Market Program",
+        "phone": "(206)-633-0451",
+        "website": "https://tilthalliance.square.site/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3486525,
+          47.7240367
+        ]
+      },
+      "properties": {
+        "name": "Ukrainian Community Center of WA - Seattle",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Tuesday | Tuesday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "Ukrainian Community Center",
+        "phone": "(425)-430-8229",
+        "website": "https://uccwa.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3723726,
+          47.6946156
+        ]
+      },
+      "properties": {
+        "name": "UIATF Labatyeh Youth Home",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Wednesday | Wednesday | Serves: Older Adults 60+ and Eligible Participants",
+        "agency": "United Indians of All Tribes Foundation (UIATF)",
+        "phone": "(206)-285-4425",
+        "website": "https://www.unitedindians.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262898,
+          47.6805765
+        ]
+      },
+      "properties": {
+        "name": "Magnuson Park Community Food Pantry",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Wednesday | Wednesday | Serves: General Public",
+        "agency": "University District Service League",
+        "phone": "(206)-523-7060",
+        "website": "https://www.udistrictfoodbank.org/services/magnuson-park-community-food-pantry/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3178395,
+          47.6655387
+        ]
+      },
+      "properties": {
+        "name": "University District Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Thursday, Friday | Monday, Tuesday, Thursday, Friday | Serves: General Public",
+        "agency": "University District Service League",
+        "phone": "(206)-523-7060",
+        "website": "https://www.udistrictfoodbank.org/services/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3478091,
+          47.5317619
+        ]
+      },
+      "properties": {
+        "name": "Duwamish Waterway Park",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Saturday | Saturday | Serves: General Public",
+        "agency": "Urban Fresh Food Collective of South Park",
+        "phone": NaN,
+        "website": "https://cultivatesouthpark.org/mercadito"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3240431,
+          47.5284221
+        ]
+      },
+      "properties": {
+        "name": "South Park Community Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Wednesday, Thursday | Monday, Wednesday, Thursday | Serves: General Public",
+        "agency": "Urban Fresh Food Collective of South Park",
+        "phone": "(206)-809-9691",
+        "website": "https://www.urbanfreshfoodcollective.org/covid19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3456315,
+          47.5068483
+        ]
+      },
+      "properties": {
+        "name": "Victory Outreach Seattle",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Victory Outreach Seattle",
+        "phone": "(206)-244-8184",
+        "website": "https://www.voseattle.com/ministries/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3758291,
+          47.5444292
+        ]
+      },
+      "properties": {
+        "name": "West Seattle Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Tuesday, Wednesday, Thursday, Friday | Tuesday, Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "West Seattle Food Bank",
+        "phone": "(206)-932-9023",
+        "website": "https://www.westseattlefoodbank.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3548275,
+          47.5131743
+        ]
+      },
+      "properties": {
+        "name": "White Center Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Monday, Wednesday, Thursday, Friday | Monday, Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "White Center Food Bank",
+        "phone": "(206)-762-2848",
+        "website": "https://www.whitecenterfoodbank.org/service-hours"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3305192,
+          47.6182683
+        ]
+      },
+      "properties": {
+        "name": "Orion Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Youth and Young Adults",
+        "agency": "YouthCare",
+        "phone": "(206)-622-5555",
+        "website": "https://www.youthcare.org/homeless-youth-services/engagement-services/youthcares-orion-center/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311609,
+          47.661853
+        ]
+      },
+      "properties": {
+        "name": "U-District Youth Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday | Sunday, Monday, Tuesday, Wednesday, Thursday | Serves: Youth and Young Adults",
+        "agency": "YouthCare",
+        "phone": "(206)-622-5555",
+        "website": "https://www.youthcare.org/get-help/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2958409,
+          47.608328
+        ]
+      },
+      "properties": {
+        "name": "Central Area Food Bank",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Wednesday | Wednesday | Serves: General Public",
+        "agency": "YWCA",
+        "phone": "(206)-375-1496",
+        "website": "https://www.ywcaworks.org/programs/central-area-food-bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3263116,
+          47.5350237
+        ]
+      },
+      "properties": {
+        "name": "Cultivate South Park",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Tuesday, Friday | Tuesday, Friday | Serves: General Public",
+        "agency": "Cultivate South Park",
+        "phone": NaN,
+        "website": "https://www.cultivatesouthpark.org"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3459893,
+          47.6139347
+        ]
+      },
+      "properties": {
+        "name": "Bakhita Gardens",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Wednesday | Wednesday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Bakhita Gardens",
+        "phone": "(206)-456-3100",
+        "website": "https://ccsww.org/services/rose-of-lima-house/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3005353,
+          47.609283
+        ]
+      },
+      "properties": {
+        "name": "Center for MultiCultural Health",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Friday | Friday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Center for MultiCultural Health",
+        "phone": "(206)-461-6910",
+        "website": "https://www.centerformulticulturalhealth.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3310925,
+          47.6012206
+        ]
+      },
+      "properties": {
+        "name": "Chief Seattle Club",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Chief Seattle Club",
+        "phone": "(206)-715-7536",
+        "website": "https://www.chiefseattleclub.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2277786,
+          47.7430346
+        ]
+      },
+      "properties": {
+        "name": "Light House Four Square Church",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Community Resource Network",
+        "phone": NaN,
+        "website": "https://lighthouse4square.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3215355,
+          47.6011076
+        ]
+      },
+      "properties": {
+        "name": "For All",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Sunday, Saturday | Sunday, Saturday | Serves: General Public",
+        "agency": "For All",
+        "phone": NaN,
+        "website": "https://www.freefoodforall.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2875122,
+          47.5630626
+        ]
+      },
+      "properties": {
+        "name": "Friends of the Children Seattle",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Friends of the Children Seattle",
+        "phone": "(206)-328-3535",
+        "website": "http://friendsseattle.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3415655,
+          47.7127728
+        ]
+      },
+      "properties": {
+        "name": "Aki Kurose Village",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://hungerintervention.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2996593,
+          47.7196732
+        ]
+      },
+      "properties": {
+        "name": "Lamb of God Lutheran Church",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://hungerintervention.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2917535,
+          47.7203805
+        ]
+      },
+      "properties": {
+        "name": "Lake City Court",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://hungerintervention.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2857324,
+          47.717042
+        ]
+      },
+      "properties": {
+        "name": "Hunger Intervention Program",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Hunger Intervention Program",
+        "phone": "(206)-538-6567",
+        "website": "https://hungerintervention.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284044,
+          47.541886
+        ]
+      },
+      "properties": {
+        "name": "ICNA Relief",
+        "resource_type": "food-bank",
+        "affordability": "free",
+        "description": "Thursday | Thursday | Serves: General Public",
+        "agency": "ICNA Relief",
+        "phone": "(206)-695-2080",
+        "website": "https://icnarelief.org/washington/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3331017,
+          47.5539241
+        ]
+      },
+      "properties": {
+        "name": "OSL",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: General Public",
+        "agency": "Operation Sack Lunch, Inc.",
+        "phone": "(206)-347-6629",
+        "website": "https://www.oslserves.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3415787,
+          47.6130256
+        ]
+      },
+      "properties": {
+        "name": "YWCA Opportunity Place",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Operation Sack Lunch, Inc.",
+        "phone": "(206)-347-6629",
+        "website": "https://www.oslserves.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2857324,
+          47.717042
+        ]
+      },
+      "properties": {
+        "name": "OSL",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Wednesday | Wednesday | Serves: General Public",
+        "agency": "Operation Sack Lunch, Inc.",
+        "phone": "(206)-347-6629",
+        "website": "https://www.oslserves.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3374101,
+          47.6153602
+        ]
+      },
+      "properties": {
+        "name": "OSL",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Operation Sack Lunch, Inc.",
+        "phone": "(206)-347-6629",
+        "website": "https://www.oslserves.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2937256,
+          47.5626423
+        ]
+      },
+      "properties": {
+        "name": "Rainier Vista Boys & Girls Club",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: Youth and Young Adults",
+        "agency": "Rainier Vista Boys & Girls Club",
+        "phone": "(206)-436-1890",
+        "website": "https://positiveplace.org/clubs/smilow-rainier-vista"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349521,
+          47.7347114
+        ]
+      },
+      "properties": {
+        "name": "St. Dunstan's Episcopal Church",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Tuesday | Tuesday | Serves: General Public",
+        "agency": "St. Dunstan's Episcopal Church",
+        "phone": "(206)-363-4319",
+        "website": "https://sdchp.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3385348,
+          47.5885034
+        ]
+      },
+      "properties": {
+        "name": "St. Martin De Porres Shelter",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "St. Martin De Porres Shelter",
+        "phone": "(206)-323-6341",
+        "website": "https://www.ccsww.org/stmartin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3259157,
+          47.607646
+        ]
+      },
+      "properties": {
+        "name": "Cathedral Kitchen",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: General Public",
+        "agency": "St. James Cathedral",
+        "phone": "(206)-264-2091",
+        "website": "https://www.stjames-cathedral.org/outreach/kitchen.aspx"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320528,
+          47.5296153
+        ]
+      },
+      "properties": {
+        "name": "South Park Senior Citizens",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Wednesday, Friday | Monday, Wednesday, Friday | Serves: Older Adults 55+ and Eligible Participants",
+        "agency": "Sound Generations",
+        "phone": "(206)-909-0346",
+        "website": "https://www.spseniors.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3126175,
+          47.6660333
+        ]
+      },
+      "properties": {
+        "name": "Vedic Cultural Center",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": " |  | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "Vedic Cultural Center",
+        "phone": NaN,
+        "website": NaN
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2778957,
+          47.5453084
+        ]
+      },
+      "properties": {
+        "name": "West African Community Council",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Monday, Tuesday, Wednesday, Thursday, Friday | Monday, Tuesday, Wednesday, Thursday, Friday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "West African Community Council",
+        "phone": NaN,
+        "website": "https://www.waccofseattle.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3327052,
+          47.6054636
+        ]
+      },
+      "properties": {
+        "name": "YMCA of Greater Seattle",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Serves: Contact Agency for Any Eligibility Requirements",
+        "agency": "YMCA of Greater Seattle",
+        "phone": NaN,
+        "website": "https://www.seattleymca.org/social-impact-center/youth-young-adults/drop-in-services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3070896,
+          47.734046
+        ]
+      },
+      "properties": {
+        "name": "POPYs Caf\ufffd",
+        "resource_type": "free-meal",
+        "affordability": "free",
+        "description": "Wednesday | Wednesday | Serves: General Public",
+        "agency": "YMCA of Greater Seattle",
+        "phone": NaN,
+        "website": "https://www.seattleymca.org/blog/supporting-our-community-during-time-increased-food-insecurity"
+      }
+    }
+  ]
+}
