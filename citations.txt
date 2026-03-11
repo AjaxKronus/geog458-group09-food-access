@@ -1,0 +1,102 @@
+Seattle Food Access Map
+Citations
+
+Primary dataset
+- City of Seattle Human Services Department. Emergency Food and Meals Seattle and King County. Seattle Open Data, dataset ID kkzf-ntnu.
+- Local project copy: assets/rows.geojson
+- Publisher listed in metadata: data.seattle.gov
+- Attribution link in dataset metadata: http://www.seattle.gov/humanservices/
+
+Basemap
+- OpenStreetMap contributors. Tile attribution shown in seattle_food_map.html.
+
+Verification and manual source websites
+- These organization websites were used as source references for the hand-collected and categorized food access points stored in data/food_resources.geojson.
+
+http://friendsseattle.org/
+https://acrs.org/services/aging-services-for-older-adults/acrs-food-bank/
+https://ccsww.org/services/permanent-housing/
+https://ccsww.org/services/rose-of-lima-house/
+https://cultivatesouthpark.org/mercadito
+https://hungerintervention.org/
+https://icnarelief.org/washington/
+https://kawabehouse.org/meiji-kai-menu/
+https://lighthouse4square.org/
+https://positiveplace.org/clubs/smilow-rainier-vista
+https://prlc.org/phinney-ridge-lutheran-church-food-bank
+https://sc-ws.org/services/food-and-dining/
+https://sdchp.org/
+https://seattletemple.salvationarmy.org/seattle_temple_corps/greenwood-food-bank-1/
+https://tilthalliance.square.site/
+https://tsawhitecenter.org/SeattleWhiteCenter/help
+https://uccwa.org/
+https://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/
+https://www.atriumkitchenpikeplace.com/
+https://www.auroracommons.org/
+https://www.ballardfoodbank.org/
+https://www.blessed-sacrament.org/outreach
+https://www.breadoflifemission.org/emergency-services
+https://www.byrdbarrplace.org/programs-services/food-bank/
+https://www.ccsww.org/get-help/shelter-homeless-services/lazarus-center/
+https://www.ccsww.org/stmartin
+https://www.centerformulticulturalhealth.org/
+https://www.chiefseattleclub.org/
+https://www.churchbcc.org/missions/localmissions
+https://www.communitylunch.org/about-1
+https://www.cultivatesouthpark.org
+https://www.ediblehopekitchen.org/
+https://www.elcentrodelaraza.org/get-help/human-emergency-services/food-bank/
+https://www.epiclifechurch.org/incarnational-ministry
+https://www.eritreanassociation.org/programs-blog/blog-post-title-four-thpy4
+https://www.facebook.com/pages/category/Community/Ravenna-PopUp-Kitchen-498542463880219/
+https://www.familyworksseattle.org/food-banks/
+https://www.filcommsea.org/index.php/programs/
+https://www.filcommsea.org/senior-services
+https://www.firstchurchseattle.org/shared-breakfast/?fbclid=IwAR2EAykPB90--700TuZeuY3aX18yx3tXkg9lbCW8qVghb3RgTCJJnwkB7wQ
+https://www.firstcovenantseattle.org/outreach
+https://www.freefoodforall.org/
+https://www.frelardtamales.com/
+https://www.hungerintervention.org
+https://www.icsseattle.org/covid-19-info/
+https://www.jfsseattle.org/get-help/polack-food-bank/
+https://www.kirklandwa.gov/depart/parks/About_Parks_and_Community_Services/Senior_Services.htm
+https://www.musangseattle.com/community-kitchen
+https://www.northhelpline.org/get-help/bitter-lake/
+https://www.northhelpline.org/get-help/food-bank/
+https://www.northwestharvest.org/sodo-community-market?gclid=CjwKCAjwguzzBRBiEiwAgU0FT2oeYOjgOqT-nfdpq8cCoSR-ynhQyJnFA4Xuzmhtt749Xzpz19jAZRoCaTUQAvD_BwE
+https://www.oslserves.org/
+https://www.phinneycenter.org/seniors/gsc/
+https://www.plantbasedfoodshare.org
+https://www.pmsc-fb.org/
+https://www.prisonscholars.org/food-security/
+https://www.pugetsoundlaboragency.org/food-bank.html
+https://www.recoverycafe.org/
+https://www.rootsinfo.org/
+https://www.rootsinfo.org/friday-feast-volunteer
+https://www.rvfb.org/
+https://www.sacredheartseattle.org/qafb
+https://www.seattlefoodcommittee.org/food_bank/paradise-of-praise/
+https://www.seattlefoodnotbombs.org/?fbclid=IwAR3T68e9asOm5ksmU_CuHK8ppZZir1QFQBRn_HbSvUCNvhDb7sGxeFXhr_g
+https://www.seattleindian.org/services/food-security-programs/
+https://www.seattlenightwatch.org/what-we-do/food-and-shelter/
+https://www.seattleymca.org/blog/supporting-our-community-during-time-increased-food-insecurity
+https://www.seattleymca.org/social-impact-center/youth-young-adults/drop-in-services
+https://www.soundgenerations.org/our-programs/food-security/community-dining/
+https://www.spseniors.org/
+https://www.stjames-cathedral.org/outreach/kitchen.aspx
+https://www.svdpseattle.org/get-help/food-bank/
+https://www.teenfeed.org/programs/
+https://www.thefbsm.org/services
+https://www.udistrictfoodbank.org/services/
+https://www.udistrictfoodbank.org/services/magnuson-park-community-food-pantry/
+https://www.uheightscenter.org/coronavirus
+https://www.unitedindians.org/
+https://www.urbanfreshfoodcollective.org/covid19
+https://www.voseattle.com/ministries/
+https://www.waccofseattle.org/
+https://www.westseattlefoodbank.org/
+https://www.whitecenterfoodbank.org/service-hours
+https://www.ymca.org/what-we-do/youth-development/food-programs/summer
+https://www.youthcare.org/get-help/
+https://www.youthcare.org/homeless-youth-services/engagement-services/youthcares-orion-center/
+https://www.ywcaworks.org/programs/central-area-food-bank
