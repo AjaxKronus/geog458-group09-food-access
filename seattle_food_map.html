@@ -2785,6 +2785,78 @@ function applyRegionFilter(region) {
     });
 }
 
+var locationInfoByName = {};
+
+function getMarkerLocationName(marker) {
+    var popup = marker.getPopup();
+    if (!popup) {
+        return "Unknown Location";
+    }
+
+    var content = popup.getContent();
+    var html = typeof content === "string" ? content : content.outerHTML;
+    var match = html.match(/<b>(.*?)<\/b>/);
+    return match ? match[1] : "Unknown Location";
+}
+
+function renderLocationInfo(name) {
+    var panel = document.getElementById("location-info-content");
+    if (!panel) {
+        return;
+    }
+
+    var info = locationInfoByName[name] || {};
+    var establishmentYear = info.establishmentYear || "Data not available";
+    var mealsPerYear = info.mealsPerYear || "Data not available";
+
+    panel.innerHTML = `
+        <div style="margin-bottom: 4px;"><b>Establishment year:</b> ${establishmentYear}</div>
+        <div><b>Meals served per year:</b> ${mealsPerYear}</div>
+    `;
+}
+
+var locationInfoControl = L.control({ position: "topleft" });
+
+locationInfoControl.onAdd = function () {
+    var div = L.DomUtil.create("div", "info location-info");
+    div.innerHTML = `
+        <div style="
+            background: white;
+            padding: 10px 12px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.2);
+            font-size: 14px;
+            line-height: 18px;
+            width: 230px;
+        ">
+            <div style="font-weight: 700; margin-bottom: 8px;">Location Info</div>
+            <div id="location-info-content">Click a point to view location details.</div>
+        </div>
+    `;
+
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+};
+
+locationInfoControl.addTo(map_ad526506ea6bad64d8225fa1f2ee4286);
+
+allMarkers.forEach(function (marker) {
+    var name = getMarkerLocationName(marker);
+    marker.locationName = name;
+
+    if (!locationInfoByName[name]) {
+        locationInfoByName[name] = {
+            establishmentYear: "",
+            mealsPerYear: ""
+        };
+    }
+
+    marker.on("click", function () {
+        renderLocationInfo(name);
+    });
+});
+
 var regionControl = L.control({ position: "bottomleft" });
 
 regionControl.onAdd = function () {
