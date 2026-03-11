@@ -2742,6 +2742,86 @@
         circle_marker_c5a7a11d794025da45d13442ec4ce5b4.bindPopup(popup_81c9bd2f0b750d2ded83e586921d737e)
         ;
 
+var allMarkers = Object.keys(window)
+    .filter(function (key) { return key.indexOf("circle_marker_") === 0; })
+    .map(function (key) { return window[key]; });
+
+function getRegionForMarker(marker) {
+    var lat = marker.getLatLng().lat;
+
+    if (lat >= 47.66) {
+        return "north";
+    }
+    if (lat < 47.58) {
+        return "south";
+    }
+    return "central";
+}
+
+function setMarkerVisibility(marker, visible) {
+    var color = marker.options.color || marker.options.fillColor || "red";
+    marker.setStyle({
+        opacity: visible ? 1.0 : 0.0,
+        fillOpacity: visible ? 0.7 : 0.0,
+        weight: visible ? 3 : 0
+    });
+
+    if (marker._path) {
+        marker._path.style.pointerEvents = visible ? "auto" : "none";
+    }
+
+    if (marker._tooltip && marker._tooltip._container) {
+        marker._tooltip._container.style.display = visible ? "" : "none";
+    }
+
+    marker.options.color = color;
+    marker.options.fillColor = color;
+}
+
+function applyRegionFilter(region) {
+    allMarkers.forEach(function (marker) {
+        var matches = region === "all" || getRegionForMarker(marker) === region;
+        setMarkerVisibility(marker, matches);
+    });
+}
+
+var regionControl = L.control({ position: "bottomleft" });
+
+regionControl.onAdd = function () {
+    var div = L.DomUtil.create("div", "info region-filter");
+
+    div.innerHTML = `
+        <div style="
+            background: white;
+            padding: 10px 12px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.2);
+            font-size: 14px;
+            line-height: 18px;
+        ">
+            <label for="region-filter-select" style="display:block;margin-bottom:6px;"><b>Region</b></label>
+            <select id="region-filter-select" style="width: 180px; padding: 4px;">
+                <option value="all">All Seattle</option>
+                <option value="central">Central Seattle</option>
+                <option value="north">North Seattle</option>
+                <option value="south">South Seattle</option>
+            </select>
+        </div>
+    `;
+
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+};
+
+regionControl.addTo(map_ad526506ea6bad64d8225fa1f2ee4286);
+
+document.getElementById("region-filter-select").addEventListener("change", function (event) {
+    applyRegionFilter(event.target.value);
+});
+
+applyRegionFilter("all");
+
 var overlayMaps = {
     "Food Bank": foodBankLayer,
     "Cultural Foods": culturalFoodsLayer
