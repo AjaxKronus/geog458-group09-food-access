@@ -97,7 +97,6 @@
     
             tile_layer_cf5f0df1d05372a88a29b6bd7c307c8a.addTo(map_ad526506ea6bad64d8225fa1f2ee4286);
             var foodBankLayer = L.layerGroup().addTo(map_ad526506ea6bad64d8225fa1f2ee4286);
-            var freeMealLayer = L.layerGroup().addTo(map_ad526506ea6bad64d8225fa1f2ee4286);
             var culturalFoodsLayer = L.layerGroup().addTo(map_ad526506ea6bad64d8225fa1f2ee4286);
         
     
@@ -2743,9 +2742,8 @@
         circle_marker_c5a7a11d794025da45d13442ec4ce5b4.bindPopup(popup_81c9bd2f0b750d2ded83e586921d737e)
         ;
 
-        var overlayMaps = {
+var overlayMaps = {
     "Food Bank": foodBankLayer,
-    "Free Meal": freeMealLayer,
     "Cultural Foods": culturalFoodsLayer
 };
 
@@ -2772,10 +2770,6 @@ legend.onAdd = function () {
             <div style="margin-top: 6px;">
                 <span style="display:inline-block;width:12px;height:12px;background:red;border-radius:50%;margin-right:8px;border:1px solid #555;"></span>
                 Food Bank
-            </div>
-            <div>
-                <span style="display:inline-block;width:12px;height:12px;background:green;border-radius:50%;margin-right:8px;border:1px solid #555;"></span>
-                Free Meal
             </div>
             <div>
                 <span style="display:inline-block;width:12px;height:12px;background:orange;border-radius:50%;margin-right:8px;border:1px solid #555;"></span>
