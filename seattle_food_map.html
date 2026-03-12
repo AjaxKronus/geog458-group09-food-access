@@ -74,6 +74,18 @@
                     border-color: #1f4e79;
                     color: white;
                 }
+
+                .about-toggle-button {
+                    border: 1px solid #d0d0d0;
+                    background: white;
+                    color: #2f3b45;
+                    border-radius: 999px;
+                    padding: 8px 14px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    box-shadow: 0 0 6px rgba(0,0,0,0.18);
+                }
             </style>
 
             <script>
@@ -2918,6 +2930,49 @@ allMarkers.forEach(function (marker) {
     });
 });
 
+var contextControl = L.control({ position: "topleft" });
+
+contextControl.onAdd = function () {
+    var div = L.DomUtil.create("div", "info project-context");
+
+    div.innerHTML = `
+        <button id="about-toggle-button" class="about-toggle-button" type="button">About</button>
+        <div id="about-panel" style="
+            display: none;
+            margin-top: 8px;
+            background: rgba(255,255,255,0.96);
+            padding: 12px 14px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.18);
+            font-size: 12px;
+            line-height: 1.45;
+            width: 300px;
+        ">
+            <div style="font-weight: 700; font-size: 15px; margin-bottom: 8px;">About This Map</div>
+            <div style="margin-bottom: 8px;">
+                This dashboard helps Seattle users find affordable food resources and explore patterns of food access across the city.
+            </div>
+            <div style="margin-bottom: 8px;">
+                We built it because food information is often scattered, hard to update, and difficult to compare across neighborhoods.
+            </div>
+            <div>
+                The goal is to combine mapping, affordability context, and community visibility in one interactive tool.
+            </div>
+        </div>
+    `;
+
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+};
+
+contextControl.addTo(map_ad526506ea6bad64d8225fa1f2ee4286);
+
+document.getElementById("about-toggle-button").addEventListener("click", function () {
+    var panel = document.getElementById("about-panel");
+    panel.style.display = panel.style.display === "none" ? "block" : "none";
+});
+
 var regionControl = L.control({ position: "bottomleft" });
 
 regionControl.onAdd = function () {
@@ -3015,7 +3070,7 @@ function buildWealthLookup() {
 }
 
 var wealthLookupByName = buildWealthLookup();
-var US_MEDIAN_HOUSEHOLD_INCOME = 78538;
+var SEATTLE_AVERAGE_HOUSEHOLD_INCOME = 175130;
 var SQUARE_METERS_PER_SQUARE_MILE = 2589988.110336;
 
 function buildWealthAnalysisFeatures() {
@@ -3128,7 +3183,7 @@ function buildIncomeBar(label, value, maxValue, color) {
 function buildMarkerHoverPanel(marker) {
     var stats = getMarkerBufferStats(marker);
     var localIncome = stats.averageIncome || 0;
-    var benchmarkIncome = US_MEDIAN_HOUSEHOLD_INCOME;
+    var benchmarkIncome = SEATTLE_AVERAGE_HOUSEHOLD_INCOME;
     var barMax = Math.max(localIncome, benchmarkIncome, 1);
     var regionsHtml = stats.regions.length
         ? stats.regions.map(function (name) {
@@ -3141,7 +3196,7 @@ function buildMarkerHoverPanel(marker) {
             <div style="font-weight:700;font-size:15px;margin-bottom:6px;">${marker.locationName}</div>
             <div style="font-size:12px;color:#4b5563;margin-bottom:8px;">1 km surrounding area comparison</div>
             ${buildIncomeBar("Area average household income", localIncome, barMax, "#1f4e79")}
-            ${buildIncomeBar("U.S. median household income", benchmarkIncome, barMax, "#6b7280")}
+            ${buildIncomeBar("Seattle average household income", benchmarkIncome, barMax, "#6b7280")}
             <div style="margin-top:10px;font-size:12px;line-height:1.45;">
                 <div><b>Regions within 1 km:</b> <div style="margin-top:4px;">${regionsHtml}</div></div>
                 <div style="margin-top:8px;"><b>Estimated population within overlap:</b> ${stats.estimatedPopulation ? formatWholeNumber(stats.estimatedPopulation) : "Data not available"}</div>

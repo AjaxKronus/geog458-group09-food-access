@@ -12,9 +12,7 @@ Wealth layer datasets
 - Local project copy: data/wealth_boundaries.geojson
 - City of Seattle GIS. Community Reporting Areas. Seattle Open Data / ArcGIS Hub.
 - Download source for the local boundary copy: https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Community_Reporting_Areas_ACS5Y10/FeatureServer/0/query
-
-National income benchmark
-- U.S. Census Bureau QuickFacts. United States median household income (in 2023 dollars), 2019-2023: https://www.census.gov/quickfacts/fact/table/US/PST045224
+- Seattle comparison benchmark in the hover panel is computed from the local CRA income dataset above as a weighted citywide average household income.
 
 Basemap
 - OpenStreetMap contributors. Tile attribution shown in seattle_food_map.html.
